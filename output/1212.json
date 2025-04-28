@@ -1,0 +1,1250 @@
+{
+  "id": "1212",
+  "name": "Jingliu",
+  "rarity": 5,
+  "path": "Destruction",
+  "damage_type": "Ice",
+  "skills": {
+    "121201": {
+      "id": "121201",
+      "name": "Lucent Moonglow",
+      "max_level": 10,
+      "damage_type": "Ice",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Ice DMG to a single enemy target.",
+      "full_description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Jingliu's ATK to a single enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "121202": {
+      "id": "121202",
+      "name": "Transcendent Flash",
+      "max_level": 15,
+      "damage_type": "Ice",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals Ice DMG to a target enemy and obtains <color=#f29e38ff>1 stack of Syzygy</color>.",
+      "full_description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Jingliu's ATK to a single enemy and obtains <unbreak>#2[i]</unbreak> stack(s) of Syzygy.",
+      "params": [
+        [
+          1,
+          1
+        ],
+        [
+          1.1,
+          1
+        ],
+        [
+          1.2,
+          1
+        ],
+        [
+          1.3,
+          1
+        ],
+        [
+          1.4,
+          1
+        ],
+        [
+          1.5,
+          1
+        ],
+        [
+          1.625,
+          1
+        ],
+        [
+          1.75,
+          1
+        ],
+        [
+          1.875,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2.1,
+          1
+        ],
+        [
+          2.2,
+          1
+        ],
+        [
+          2.3,
+          1
+        ],
+        [
+          2.4,
+          1
+        ],
+        [
+          2.5,
+          1
+        ]
+      ]
+    },
+    "121203": {
+      "id": "121203",
+      "name": "Florephemeral Dreamflux",
+      "max_level": 15,
+      "damage_type": "Ice",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "Deals massive Ice DMG to a target enemy and deals Ice DMG to adjacent targets. Obtains <color=#f29e38ff>1 stack of Syzygy</color>.",
+      "full_description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Jingliu's ATK to a single enemy, and deals Ice DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Jingliu's ATK to any adjacent enemies. Gains <unbreak>#2[i]</unbreak> stack(s) of Syzygy after attack ends.",
+      "params": [
+        [
+          1.8,
+          1,
+          0.9,
+          1
+        ],
+        [
+          1.92,
+          1,
+          0.96,
+          1
+        ],
+        [
+          2.04,
+          1,
+          1.02,
+          1
+        ],
+        [
+          2.16,
+          1,
+          1.08,
+          1
+        ],
+        [
+          2.28,
+          1,
+          1.14,
+          1
+        ],
+        [
+          2.4,
+          1,
+          1.2,
+          1
+        ],
+        [
+          2.55,
+          1,
+          1.275,
+          1
+        ],
+        [
+          2.7,
+          1,
+          1.35,
+          1
+        ],
+        [
+          2.85,
+          1,
+          1.425,
+          1
+        ],
+        [
+          3,
+          1,
+          1.5,
+          1
+        ],
+        [
+          3.12,
+          1,
+          1.56,
+          1
+        ],
+        [
+          3.24,
+          1,
+          1.62,
+          1
+        ],
+        [
+          3.36,
+          1,
+          1.68,
+          1
+        ],
+        [
+          3.48,
+          1,
+          1.74,
+          1
+        ],
+        [
+          3.6,
+          1,
+          1.8,
+          1
+        ]
+      ]
+    },
+    "121204": {
+      "id": "121204",
+      "name": "Crescent Transmigration",
+      "max_level": 15,
+      "damage_type": "Ice",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "When possessing <color=#f29e38ff><unbreak>#5[i]</unbreak></color> stacks of Syzygy, Jingliu enters the Spectral Transmigration state with her <color=#f29e38ff>action advanced by <unbreak>100%</unbreak></color>, her CRIT Rate increased, and her <color=#f29e38ff>Skill becoming enhanced</color>. Using an attack in this state consumes HP from her teammates and <color=#f29e38ff>increases Jingliu's ATK</color> according to the total HP consumed. When Syzygy stacks become 0, exits the Spectral Transmigration state.",
+      "full_description": "When Jingliu has <unbreak>#5[i]</unbreak> stack(s) of Syzygy, she enters the Spectral Transmigration state with her action advanced by <unbreak>#6[i]%</unbreak> and her CRIT Rate increases by <color=#f29e38ff><unbreak>#7[i]%</unbreak></color>. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to <unbreak>#2[i]%</unbreak> of their respective Max HP (this cannot reduce teammates' HP to lower than 1). Jingliu's ATK increases by <unbreak>#3[i]%</unbreak> of the total HP consumed from all allies in this attack, capped at <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
+      "params": [
+        [
+          0.3,
+          0.04,
+          5.4,
+          0.9,
+          2,
+          1,
+          0.4
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          0.99,
+          2,
+          1,
+          0.41
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.08,
+          2,
+          1,
+          0.42
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.17,
+          2,
+          1,
+          0.43
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.26,
+          2,
+          1,
+          0.44
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.35,
+          2,
+          1,
+          0.45
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.4625,
+          2,
+          1,
+          0.4625
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.575,
+          2,
+          1,
+          0.475
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.6875,
+          2,
+          1,
+          0.4875
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.8,
+          2,
+          1,
+          0.5
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.89,
+          2,
+          1,
+          0.51
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          1.98,
+          2,
+          1,
+          0.52
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          2.07,
+          2,
+          1,
+          0.53
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          2.16,
+          2,
+          1,
+          0.54
+        ],
+        [
+          0.3,
+          0.04,
+          5.4,
+          2.25,
+          2,
+          1,
+          0.55
+        ]
+      ]
+    },
+    "121207": {
+      "id": "121207",
+      "name": "Shine of Truth",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "Creates a Special Dimension around the character. Enemies within this dimension will become <color=#f29e38ff>Frozen</color>. After entering combat with enemies in the dimension, this character regenerates Energy and obtains 1 stack of Syzygy with a high chance to <color=#f29e38ff>Freeze</color> enemies.",
+      "full_description": "After using this Technique, creates a Special Dimension around Jingliu that lasts for <unbreak>#3[i]</unbreak> seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates <unbreak>#6[i]</unbreak> Energy and obtains <unbreak>#1[i]</unbreak> stack(s) of Syzygy, with a <unbreak>#2[i]%</unbreak> <u>base chance</u> of Freezing enemy targets for <unbreak>#4[i]</unbreak> turn(s). While Frozen, enemy targets cannot take action, and receive Ice <u>Additional DMG</u> equal to <unbreak>#5[i]%</unbreak> of Jingliu's ATK at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
+      "params": [
+        [
+          1,
+          1,
+          20,
+          1,
+          0.8,
+          15
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1212101": {
+      "id": "1212101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1212202"
+      ],
+      "params": [
+        0.35
+      ]
+    },
+    "1212102": {
+      "id": "1212102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1212205"
+      ],
+      "params": [
+        0.1
+      ]
+    },
+    "1212103": {
+      "id": "1212103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1212208"
+      ],
+      "params": [
+        0.2
+      ]
+    }
+  },
+  "minor_traces": {
+    "1212201": {
+      "id": "1212201",
+      "stat": "CriticalDamageBase",
+      "value": 0.053,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1212202": {
+      "id": "1212202",
+      "stat": "SpeedDelta",
+      "value": 2,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1212101
+      ],
+      "children": [
+        "1212203"
+      ]
+    },
+    "1212203": {
+      "id": "1212203",
+      "stat": "CriticalDamageBase",
+      "value": 0.053,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1212202
+      ],
+      "children": [
+        "1212204"
+      ]
+    },
+    "1212204": {
+      "id": "1212204",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1212203
+      ],
+      "children": []
+    },
+    "1212205": {
+      "id": "1212205",
+      "stat": "CriticalDamageBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1212102
+      ],
+      "children": [
+        "1212206"
+      ]
+    },
+    "1212206": {
+      "id": "1212206",
+      "stat": "SpeedDelta",
+      "value": 3,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1212205
+      ],
+      "children": [
+        "1212207"
+      ]
+    },
+    "1212207": {
+      "id": "1212207",
+      "stat": "CriticalDamageBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1212206
+      ],
+      "children": []
+    },
+    "1212208": {
+      "id": "1212208",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1212103
+      ],
+      "children": [
+        "1212209",
+        "1212210"
+      ]
+    },
+    "1212209": {
+      "id": "1212209",
+      "stat": "SpeedDelta",
+      "value": 4,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1212208
+      ],
+      "children": []
+    },
+    "1212210": {
+      "id": "1212210",
+      "stat": "CriticalDamageBase",
+      "value": 0.107,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1212208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 140,
+  "stats": {
+    "1/20": {
+      "hp": 195.36,
+      "atk": 92.4,
+      "defense": 66.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 205.12800000000001,
+      "atk": 97.02000000000001,
+      "defense": 69.3,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 214.89600000000002,
+      "atk": 101.64,
+      "defense": 72.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 224.66400000000002,
+      "atk": 106.26,
+      "defense": 75.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 234.43200000000002,
+      "atk": 110.88000000000001,
+      "defense": 79.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 244.20000000000002,
+      "atk": 115.5,
+      "defense": 82.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 253.96800000000002,
+      "atk": 120.12,
+      "defense": 85.8,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 263.736,
+      "atk": 124.74000000000001,
+      "defense": 89.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 273.504,
+      "atk": 129.36,
+      "defense": 92.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 283.27200000000005,
+      "atk": 133.98000000000002,
+      "defense": 95.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 293.04,
+      "atk": 138.60000000000002,
+      "defense": 99.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 302.808,
+      "atk": 143.22,
+      "defense": 102.3,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 312.576,
+      "atk": 147.84,
+      "defense": 105.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 322.34400000000005,
+      "atk": 152.46,
+      "defense": 108.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 332.112,
+      "atk": 157.08,
+      "defense": 112.19999999999999,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 341.88,
+      "atk": 161.7,
+      "defense": 115.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 351.648,
+      "atk": 166.32,
+      "defense": 118.8,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 361.41600000000005,
+      "atk": 170.94,
+      "defense": 122.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 371.184,
+      "atk": 175.56,
+      "defense": 125.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 380.952,
+      "atk": 180.18,
+      "defense": 128.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 459.096,
+      "atk": 217.14000000000001,
+      "defense": 155.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 468.86400000000003,
+      "atk": 221.76000000000002,
+      "defense": 158.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 478.63200000000006,
+      "atk": 226.38,
+      "defense": 161.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 488.40000000000003,
+      "atk": 231.0,
+      "defense": 165.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 498.168,
+      "atk": 235.62,
+      "defense": 168.3,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 507.93600000000004,
+      "atk": 240.24,
+      "defense": 171.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 517.7040000000001,
+      "atk": 244.86,
+      "defense": 174.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 527.472,
+      "atk": 249.48000000000002,
+      "defense": 178.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 537.24,
+      "atk": 254.10000000000002,
+      "defense": 181.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 547.008,
+      "atk": 258.72,
+      "defense": 184.8,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 556.7760000000001,
+      "atk": 263.34000000000003,
+      "defense": 188.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 634.9200000000001,
+      "atk": 300.29999999999995,
+      "defense": 214.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 644.6880000000001,
+      "atk": 304.91999999999996,
+      "defense": 217.8,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 654.456,
+      "atk": 309.53999999999996,
+      "defense": 221.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 664.224,
+      "atk": 314.15999999999997,
+      "defense": 224.39999999999998,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 673.9920000000001,
+      "atk": 318.78,
+      "defense": 227.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 683.76,
+      "atk": 323.4,
+      "defense": 231.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 693.528,
+      "atk": 328.02,
+      "defense": 234.3,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 703.296,
+      "atk": 332.64,
+      "defense": 237.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 713.0640000000001,
+      "atk": 337.26,
+      "defense": 240.89999999999998,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 722.8320000000001,
+      "atk": 341.88,
+      "defense": 244.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 732.6,
+      "atk": 346.5,
+      "defense": 247.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 810.7439999999999,
+      "atk": 383.46000000000004,
+      "defense": 273.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 820.512,
+      "atk": 388.08000000000004,
+      "defense": 277.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 830.28,
+      "atk": 392.70000000000005,
+      "defense": 280.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 840.048,
+      "atk": 397.32,
+      "defense": 283.79999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 849.816,
+      "atk": 401.94,
+      "defense": 287.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 859.5840000000001,
+      "atk": 406.56,
+      "defense": 290.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 869.3520000000001,
+      "atk": 411.18,
+      "defense": 293.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 879.12,
+      "atk": 415.8,
+      "defense": 297.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 888.8879999999999,
+      "atk": 420.42,
+      "defense": 300.29999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 898.656,
+      "atk": 425.03999999999996,
+      "defense": 303.59999999999997,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 908.424,
+      "atk": 429.65999999999997,
+      "defense": 306.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 986.568,
+      "atk": 466.62,
+      "defense": 333.29999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 996.336,
+      "atk": 471.24,
+      "defense": 336.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 1006.104,
+      "atk": 475.86,
+      "defense": 339.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 1015.8720000000001,
+      "atk": 480.48,
+      "defense": 343.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 1025.64,
+      "atk": 485.1,
+      "defense": 346.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 1035.408,
+      "atk": 489.72,
+      "defense": 349.79999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 1045.176,
+      "atk": 494.34000000000003,
+      "defense": 353.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 1054.944,
+      "atk": 498.96000000000004,
+      "defense": 356.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 1064.712,
+      "atk": 503.58000000000004,
+      "defense": 359.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 1074.48,
+      "atk": 508.2,
+      "defense": 363.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 1084.248,
+      "atk": 512.8199999999999,
+      "defense": 366.29999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 1162.392,
+      "atk": 549.78,
+      "defense": 392.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 1172.16,
+      "atk": 554.4,
+      "defense": 396.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 1181.928,
+      "atk": 559.02,
+      "defense": 399.29999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 1191.696,
+      "atk": 563.64,
+      "defense": 402.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 1201.464,
+      "atk": 568.26,
+      "defense": 405.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 1211.232,
+      "atk": 572.88,
+      "defense": 409.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 1221.0,
+      "atk": 577.5,
+      "defense": 412.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 1230.768,
+      "atk": 582.12,
+      "defense": 415.79999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 1240.536,
+      "atk": 586.74,
+      "defense": 419.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 1250.304,
+      "atk": 591.36,
+      "defense": 422.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 1260.0720000000001,
+      "atk": 595.98,
+      "defense": 425.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1338.2160000000001,
+      "atk": 632.94,
+      "defense": 452.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1347.984,
+      "atk": 637.5600000000001,
+      "defense": 455.4,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1357.752,
+      "atk": 642.1800000000001,
+      "defense": 458.7,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1367.52,
+      "atk": 646.8,
+      "defense": 462.0,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1377.288,
+      "atk": 651.4200000000001,
+      "defense": 465.29999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1387.056,
+      "atk": 656.04,
+      "defense": 468.6,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1396.824,
+      "atk": 660.6600000000001,
+      "defense": 471.9,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1406.592,
+      "atk": 665.28,
+      "defense": 475.2,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1416.3600000000001,
+      "atk": 669.9000000000001,
+      "defense": 478.5,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1426.1280000000002,
+      "atk": 674.52,
+      "defense": 481.79999999999995,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1435.8960000000002,
+      "atk": 679.1400000000001,
+      "defense": 485.1,
+      "spd": 96,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

@@ -1,0 +1,1158 @@
+{
+  "id": "1106",
+  "name": "Pela",
+  "rarity": 4,
+  "path": "Nihility",
+  "damage_type": "Ice",
+  "skills": {
+    "110601": {
+      "id": "110601",
+      "name": "Frost Shot",
+      "max_level": 10,
+      "damage_type": "Ice",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Ice DMG to a single enemy.",
+      "full_description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pela's ATK to a single target enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "110602": {
+      "id": "110602",
+      "name": "Frostbite",
+      "max_level": 15,
+      "damage_type": "Ice",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "<color=#f29e38ff>Dispels</color> 1 <color=#f29e38ff><u>buff</u></color> from a single enemy target, and deals Ice DMG to the target enemy.",
+      "full_description": "Removes <unbreak>#2[i]</unbreak> <u>buff(s)</u> and deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pela's ATK to one designated target enemy.",
+      "params": [
+        [
+          1.05,
+          1
+        ],
+        [
+          1.155,
+          1
+        ],
+        [
+          1.26,
+          1
+        ],
+        [
+          1.365,
+          1
+        ],
+        [
+          1.47,
+          1
+        ],
+        [
+          1.575,
+          1
+        ],
+        [
+          1.70625,
+          1
+        ],
+        [
+          1.8375,
+          1
+        ],
+        [
+          1.96875,
+          1
+        ],
+        [
+          2.1,
+          1
+        ],
+        [
+          2.205,
+          1
+        ],
+        [
+          2.31,
+          1
+        ],
+        [
+          2.415,
+          1
+        ],
+        [
+          2.52,
+          1
+        ],
+        [
+          2.625,
+          1
+        ]
+      ]
+    },
+    "110603": {
+      "id": "110603",
+      "name": "Zone Suppression",
+      "max_level": 15,
+      "damage_type": "Ice",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "AoEAttack",
+      "effect_text": "AoEAttack",
+      "simple_description": "Has a high chance of <color=#f29e38ff>lowering enemies' DEF</color> and deals minor Ice DMG to all enemies.",
+      "full_description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Pela's ATK to all enemies, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> to inflict Exposed on all enemies.\\nWhen Exposed, enemies' DEF is reduced by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [
+          1,
+          0.3,
+          2,
+          0.6
+        ],
+        [
+          1,
+          0.31,
+          2,
+          0.64
+        ],
+        [
+          1,
+          0.32,
+          2,
+          0.68
+        ],
+        [
+          1,
+          0.33,
+          2,
+          0.72
+        ],
+        [
+          1,
+          0.34,
+          2,
+          0.76
+        ],
+        [
+          1,
+          0.35,
+          2,
+          0.8
+        ],
+        [
+          1,
+          0.3625,
+          2,
+          0.85
+        ],
+        [
+          1,
+          0.375,
+          2,
+          0.9
+        ],
+        [
+          1,
+          0.3875,
+          2,
+          0.95
+        ],
+        [
+          1,
+          0.4,
+          2,
+          1
+        ],
+        [
+          1,
+          0.41,
+          2,
+          1.04
+        ],
+        [
+          1,
+          0.42,
+          2,
+          1.08
+        ],
+        [
+          1,
+          0.43,
+          2,
+          1.12
+        ],
+        [
+          1,
+          0.44,
+          2,
+          1.16
+        ],
+        [
+          1,
+          0.45,
+          2,
+          1.2
+        ]
+      ]
+    },
+    "110604": {
+      "id": "110604",
+      "name": "Data Collecting",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "After using an attack, if the enemy target is currently inflicted with <u>debuff(s)</u>, Pela regenerates Energy.",
+      "full_description": "If the enemy is <u>debuffed</u> after Pela's attack, Pela will restore <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> additional Energy. This effect can only be triggered 1 time per attack.",
+      "params": [
+        [
+          5
+        ],
+        [
+          5.5
+        ],
+        [
+          6
+        ],
+        [
+          6.5
+        ],
+        [
+          7
+        ],
+        [
+          7.5
+        ],
+        [
+          8.125
+        ],
+        [
+          8.75
+        ],
+        [
+          9.375
+        ],
+        [
+          10
+        ],
+        [
+          10.5
+        ],
+        [
+          11
+        ],
+        [
+          11.5
+        ],
+        [
+          12
+        ],
+        [
+          12.5
+        ]
+      ]
+    },
+    "110607": {
+      "id": "110607",
+      "name": "Preemptive Strike",
+      "max_level": 1,
+      "damage_type": "Ice",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "MazeAttack",
+      "effect_text": "MazeAttack",
+      "simple_description": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.",
+      "full_description": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to <unbreak>#4[i]%</unbreak> of her ATK to a random enemy, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> of lowering the DEF of all enemies by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [
+          1,
+          0.2,
+          2,
+          0.8
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1106101": {
+      "id": "1106101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1106202"
+      ],
+      "params": [
+        0.2
+      ]
+    },
+    "1106102": {
+      "id": "1106102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1106205"
+      ],
+      "params": [
+        0.1
+      ]
+    },
+    "1106103": {
+      "id": "1106103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1106208",
+        "1106209"
+      ],
+      "params": [
+        0.2
+      ]
+    }
+  },
+  "minor_traces": {
+    "1106201": {
+      "id": "1106201",
+      "stat": "IceAddedRatio",
+      "value": 0.032,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": [
+        "1106210"
+      ]
+    },
+    "1106202": {
+      "id": "1106202",
+      "stat": "AttackAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1106101
+      ],
+      "children": [
+        "1106203"
+      ]
+    },
+    "1106203": {
+      "id": "1106203",
+      "stat": "IceAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1106202
+      ],
+      "children": [
+        "1106204"
+      ]
+    },
+    "1106204": {
+      "id": "1106204",
+      "stat": "StatusProbabilityBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1106203
+      ],
+      "children": []
+    },
+    "1106205": {
+      "id": "1106205",
+      "stat": "IceAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1106102
+      ],
+      "children": [
+        "1106206"
+      ]
+    },
+    "1106206": {
+      "id": "1106206",
+      "stat": "AttackAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1106205
+      ],
+      "children": [
+        "1106207"
+      ]
+    },
+    "1106207": {
+      "id": "1106207",
+      "stat": "IceAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1106206
+      ],
+      "children": []
+    },
+    "1106208": {
+      "id": "1106208",
+      "stat": "StatusProbabilityBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1106103
+      ],
+      "children": []
+    },
+    "1106209": {
+      "id": "1106209",
+      "stat": "AttackAddedRatio",
+      "value": 0.08,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1106103
+      ],
+      "children": []
+    },
+    "1106210": {
+      "id": "1106210",
+      "stat": "IceAddedRatio",
+      "value": 0.064,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1106201
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 110,
+  "stats": {
+    "1/20": {
+      "hp": 134.4,
+      "atk": 74.4,
+      "defense": 63.0,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 141.12,
+      "atk": 78.12,
+      "defense": 66.15,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 147.84,
+      "atk": 81.84,
+      "defense": 69.3,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 154.56,
+      "atk": 85.56,
+      "defense": 72.45,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 161.28,
+      "atk": 89.28,
+      "defense": 75.6,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 168.0,
+      "atk": 93.0,
+      "defense": 78.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 174.72,
+      "atk": 96.72,
+      "defense": 81.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 181.44,
+      "atk": 100.44000000000001,
+      "defense": 85.05,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 188.16,
+      "atk": 104.16000000000001,
+      "defense": 88.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 194.88,
+      "atk": 107.88000000000001,
+      "defense": 91.35,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 201.60000000000002,
+      "atk": 111.60000000000001,
+      "defense": 94.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 208.32,
+      "atk": 115.32000000000001,
+      "defense": 97.65,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 215.04000000000002,
+      "atk": 119.04,
+      "defense": 100.8,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 221.76,
+      "atk": 122.76,
+      "defense": 103.94999999999999,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 228.48000000000002,
+      "atk": 126.48000000000002,
+      "defense": 107.1,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 235.2,
+      "atk": 130.20000000000002,
+      "defense": 110.25,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 241.92000000000002,
+      "atk": 133.92000000000002,
+      "defense": 113.4,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 248.64,
+      "atk": 137.64000000000001,
+      "defense": 116.55,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 255.36,
+      "atk": 141.36,
+      "defense": 119.69999999999999,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 262.08,
+      "atk": 145.08,
+      "defense": 122.85,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 315.84,
+      "atk": 174.84,
+      "defense": 148.05,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 322.56,
+      "atk": 178.56,
+      "defense": 151.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 329.28,
+      "atk": 182.28,
+      "defense": 154.35,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 336.0,
+      "atk": 186.0,
+      "defense": 157.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 342.72,
+      "atk": 189.72,
+      "defense": 160.65,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 349.44,
+      "atk": 193.44,
+      "defense": 163.8,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 356.15999999999997,
+      "atk": 197.16,
+      "defense": 166.95,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 362.88,
+      "atk": 200.88,
+      "defense": 170.1,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 369.6,
+      "atk": 204.60000000000002,
+      "defense": 173.25,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 376.32,
+      "atk": 208.32,
+      "defense": 176.4,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 383.03999999999996,
+      "atk": 212.04000000000002,
+      "defense": 179.55,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 436.79999999999995,
+      "atk": 241.8,
+      "defense": 204.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 443.52,
+      "atk": 245.51999999999998,
+      "defense": 207.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 450.24,
+      "atk": 249.24,
+      "defense": 211.05,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 456.96,
+      "atk": 252.95999999999998,
+      "defense": 214.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 463.67999999999995,
+      "atk": 256.68,
+      "defense": 217.35000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 470.4,
+      "atk": 260.4,
+      "defense": 220.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 477.12,
+      "atk": 264.12,
+      "defense": 223.65,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 483.84,
+      "atk": 267.84000000000003,
+      "defense": 226.8,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 490.55999999999995,
+      "atk": 271.56,
+      "defense": 229.95,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 497.28,
+      "atk": 275.28,
+      "defense": 233.10000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 504.0,
+      "atk": 279.0,
+      "defense": 236.25,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 557.76,
+      "atk": 308.76,
+      "defense": 261.45,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 564.48,
+      "atk": 312.48,
+      "defense": 264.6,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 571.2,
+      "atk": 316.20000000000005,
+      "defense": 267.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 577.9200000000001,
+      "atk": 319.92,
+      "defense": 270.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 584.64,
+      "atk": 323.64,
+      "defense": 274.04999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 591.36,
+      "atk": 327.36,
+      "defense": 277.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 598.0799999999999,
+      "atk": 331.08000000000004,
+      "defense": 280.35,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 604.8,
+      "atk": 334.8,
+      "defense": 283.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 611.52,
+      "atk": 338.52,
+      "defense": 286.65,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 618.24,
+      "atk": 342.24,
+      "defense": 289.79999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 624.96,
+      "atk": 345.96000000000004,
+      "defense": 292.95,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 678.72,
+      "atk": 375.72,
+      "defense": 318.15,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 685.44,
+      "atk": 379.44,
+      "defense": 321.3,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 692.16,
+      "atk": 383.15999999999997,
+      "defense": 324.45000000000005,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 698.88,
+      "atk": 386.88,
+      "defense": 327.6,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 705.5999999999999,
+      "atk": 390.6,
+      "defense": 330.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 712.3199999999999,
+      "atk": 394.32000000000005,
+      "defense": 333.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 719.04,
+      "atk": 398.04,
+      "defense": 337.05,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 725.76,
+      "atk": 401.76,
+      "defense": 340.20000000000005,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 732.48,
+      "atk": 405.48,
+      "defense": 343.35,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 739.2,
+      "atk": 409.20000000000005,
+      "defense": 346.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 745.92,
+      "atk": 412.92,
+      "defense": 349.65,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 799.68,
+      "atk": 442.68,
+      "defense": 374.85,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 806.4,
+      "atk": 446.4,
+      "defense": 378.0,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 813.1199999999999,
+      "atk": 450.12,
+      "defense": 381.15,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 819.8399999999999,
+      "atk": 453.84000000000003,
+      "defense": 384.29999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 826.56,
+      "atk": 457.56,
+      "defense": 387.45,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 833.28,
+      "atk": 461.28,
+      "defense": 390.6,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 840.0,
+      "atk": 465.0,
+      "defense": 393.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 846.72,
+      "atk": 468.72,
+      "defense": 396.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 853.44,
+      "atk": 472.44,
+      "defense": 400.04999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 860.16,
+      "atk": 476.15999999999997,
+      "defense": 403.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 866.88,
+      "atk": 479.88,
+      "defense": 406.35,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 920.64,
+      "atk": 509.64,
+      "defense": 431.54999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 927.3599999999999,
+      "atk": 513.36,
+      "defense": 434.7,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 934.0799999999999,
+      "atk": 517.08,
+      "defense": 437.85,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 940.8,
+      "atk": 520.8000000000001,
+      "defense": 441.0,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 947.52,
+      "atk": 524.52,
+      "defense": 444.15,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 954.24,
+      "atk": 528.24,
+      "defense": 447.29999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 960.96,
+      "atk": 531.96,
+      "defense": 450.45,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 967.68,
+      "atk": 535.6800000000001,
+      "defense": 453.6,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 974.3999999999999,
+      "atk": 539.4,
+      "defense": 456.75,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 981.1199999999999,
+      "atk": 543.12,
+      "defense": 459.9,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 987.8399999999999,
+      "atk": 546.84,
+      "defense": 463.04999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

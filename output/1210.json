@@ -1,0 +1,1247 @@
+{
+  "id": "1210",
+  "name": "Guinaifen",
+  "rarity": 4,
+  "path": "Nihility",
+  "damage_type": "Fire",
+  "skills": {
+    "121001": {
+      "id": "121001",
+      "name": "Standing Ovation",
+      "max_level": 10,
+      "damage_type": "Fire",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Fire DMG to a single enemy.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Guinaifen's ATK to a single enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "121002": {
+      "id": "121002",
+      "name": "Blazing Welcome",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "Deals Fire DMG to a single enemy and minor Fire DMG to adjacent enemies, with a high chance of <color=#f29e38ff>Burning</color> them.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Guinaifen's ATK to a single enemy and Fire DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Guinaifen's ATK to any adjacent enemies, with a <unbreak>#3[i]%</unbreak> <u>base chance</u> to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Guinaifen's ATK at the beginning of each turn, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+      "params": [
+        [
+          0.6,
+          0.2,
+          1,
+          0.83904,
+          2
+        ],
+        [
+          0.66,
+          0.22,
+          1,
+          0.92298,
+          2
+        ],
+        [
+          0.72,
+          0.24,
+          1,
+          1.00692,
+          2
+        ],
+        [
+          0.78,
+          0.26,
+          1,
+          1.09086,
+          2
+        ],
+        [
+          0.84,
+          0.28,
+          1,
+          1.1748,
+          2
+        ],
+        [
+          0.9,
+          0.3,
+          1,
+          1.30071,
+          2
+        ],
+        [
+          0.975,
+          0.325,
+          1,
+          1.46859,
+          2
+        ],
+        [
+          1.05,
+          0.35,
+          1,
+          1.67844,
+          2
+        ],
+        [
+          1.125,
+          0.375,
+          1,
+          1.93026,
+          2
+        ],
+        [
+          1.2,
+          0.4,
+          1,
+          2.18208,
+          2
+        ],
+        [
+          1.26,
+          0.42,
+          1,
+          2.291202,
+          2
+        ],
+        [
+          1.32,
+          0.44,
+          1,
+          2.400324,
+          2
+        ],
+        [
+          1.38,
+          0.46,
+          1,
+          2.509446,
+          2
+        ],
+        [
+          1.44,
+          0.48,
+          1,
+          2.618568,
+          2
+        ],
+        [
+          1.5,
+          0.5,
+          1,
+          2.72769,
+          2
+        ]
+      ]
+    },
+    "121003": {
+      "id": "121003",
+      "name": "Watch This Showstopper",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "AoEAttack",
+      "effect_text": "AoEAttack",
+      "simple_description": "Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of their original DMG.",
+      "params": [
+        [
+          0.72,
+          0.72
+        ],
+        [
+          0.768,
+          0.74
+        ],
+        [
+          0.816,
+          0.76
+        ],
+        [
+          0.864,
+          0.78
+        ],
+        [
+          0.912,
+          0.8
+        ],
+        [
+          0.96,
+          0.82
+        ],
+        [
+          1.02,
+          0.845
+        ],
+        [
+          1.08,
+          0.87
+        ],
+        [
+          1.14,
+          0.895
+        ],
+        [
+          1.2,
+          0.92
+        ],
+        [
+          1.248,
+          0.94
+        ],
+        [
+          1.296,
+          0.96
+        ],
+        [
+          1.344,
+          0.98
+        ],
+        [
+          1.392,
+          1
+        ],
+        [
+          1.44,
+          1.02
+        ]
+      ]
+    },
+    "121004": {
+      "id": "121004",
+      "name": "PatrAeon Benefits",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "After the <color=#f29e38ff>Burn status causes DMG</color> on the enemy, there is a high chance of applying <color=#f29e38ff>Firekiss</color> to the enemy.",
+      "full_description": "When Guinaifen is on the field, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> increased DMG, which lasts for <unbreak>#5[i]</unbreak> turn(s) and can stack up to <unbreak>#6[i]</unbreak> time(s).",
+      "params": [
+        [
+          1,
+          0,
+          0,
+          0.04,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.043,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.046,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.049,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.052,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.055,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.05875,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.0625,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.06625,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.07,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.073,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.076,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.078999996,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.082,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          0.085,
+          3,
+          3
+        ]
+      ]
+    },
+    "121007": {
+      "id": "121007",
+      "name": "Skill Showcase",
+      "max_level": 1,
+      "damage_type": "Fire",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "MazeAttack",
+      "effect_text": "MazeAttack",
+      "simple_description": "Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying <color=#f29e38ff>Firekiss</color>, with a total of 4 Bounces.",
+      "full_description": "Immediately attacks the enemy. After entering battle, deals DMG for <unbreak>#2[i]</unbreak> time(s), dealing Fire DMG equal to <unbreak>#1[i]%</unbreak> of Guinaifen's ATK to a random single enemy target each time, with a <unbreak>#3[i]%</unbreak> <u>base chance</u> of inflicting Firekiss on them.",
+      "params": [
+        [
+          0.5,
+          4,
+          1
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1210101": {
+      "id": "1210101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1210202"
+      ],
+      "params": [
+        0.8
+      ]
+    },
+    "1210102": {
+      "id": "1210102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1210205"
+      ],
+      "params": [
+        0.25
+      ]
+    },
+    "1210103": {
+      "id": "1210103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1210208",
+        "1210209"
+      ],
+      "params": [
+        0.2
+      ]
+    }
+  },
+  "minor_traces": {
+    "1210201": {
+      "id": "1210201",
+      "stat": "FireAddedRatio",
+      "value": 0.032,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": [
+        "1210210"
+      ]
+    },
+    "1210202": {
+      "id": "1210202",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.053,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1210101
+      ],
+      "children": [
+        "1210203"
+      ]
+    },
+    "1210203": {
+      "id": "1210203",
+      "stat": "FireAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1210202
+      ],
+      "children": [
+        "1210204"
+      ]
+    },
+    "1210204": {
+      "id": "1210204",
+      "stat": "StatusProbabilityBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1210203
+      ],
+      "children": []
+    },
+    "1210205": {
+      "id": "1210205",
+      "stat": "FireAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1210102
+      ],
+      "children": [
+        "1210206"
+      ]
+    },
+    "1210206": {
+      "id": "1210206",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1210205
+      ],
+      "children": [
+        "1210207"
+      ]
+    },
+    "1210207": {
+      "id": "1210207",
+      "stat": "FireAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1210206
+      ],
+      "children": []
+    },
+    "1210208": {
+      "id": "1210208",
+      "stat": "StatusProbabilityBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1210103
+      ],
+      "children": []
+    },
+    "1210209": {
+      "id": "1210209",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.107,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1210103
+      ],
+      "children": []
+    },
+    "1210210": {
+      "id": "1210210",
+      "stat": "FireAddedRatio",
+      "value": 0.064,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1210201
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 120,
+  "stats": {
+    "1/20": {
+      "hp": 120,
+      "atk": 79.2,
+      "defense": 60,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 126,
+      "atk": 83.16,
+      "defense": 63,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 132,
+      "atk": 87.12,
+      "defense": 66,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 138,
+      "atk": 91.08,
+      "defense": 69,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 144,
+      "atk": 95.04,
+      "defense": 72,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 150,
+      "atk": 99.0,
+      "defense": 75,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 156,
+      "atk": 102.96000000000001,
+      "defense": 78,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 162,
+      "atk": 106.92,
+      "defense": 81,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 168,
+      "atk": 110.88,
+      "defense": 84,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 174,
+      "atk": 114.84,
+      "defense": 87,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 180,
+      "atk": 118.80000000000001,
+      "defense": 90,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 186,
+      "atk": 122.76,
+      "defense": 93,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 192,
+      "atk": 126.72,
+      "defense": 96,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 198,
+      "atk": 130.68,
+      "defense": 99,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 204,
+      "atk": 134.64,
+      "defense": 102,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 210,
+      "atk": 138.6,
+      "defense": 105,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 216,
+      "atk": 142.56,
+      "defense": 108,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 222,
+      "atk": 146.51999999999998,
+      "defense": 111,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 228,
+      "atk": 150.48000000000002,
+      "defense": 114,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 234,
+      "atk": 154.44,
+      "defense": 117,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 282,
+      "atk": 186.12,
+      "defense": 141,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 288,
+      "atk": 190.07999999999998,
+      "defense": 144,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 294,
+      "atk": 194.04,
+      "defense": 147,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 300,
+      "atk": 198.0,
+      "defense": 150,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 306,
+      "atk": 201.95999999999998,
+      "defense": 153,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 312,
+      "atk": 205.92,
+      "defense": 156,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 318,
+      "atk": 209.88,
+      "defense": 159,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 324,
+      "atk": 213.83999999999997,
+      "defense": 162,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 330,
+      "atk": 217.8,
+      "defense": 165,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 336,
+      "atk": 221.76,
+      "defense": 168,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 342,
+      "atk": 225.72,
+      "defense": 171,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 390,
+      "atk": 257.4,
+      "defense": 195,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 396,
+      "atk": 261.36,
+      "defense": 198,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 402,
+      "atk": 265.32,
+      "defense": 201,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 408,
+      "atk": 269.28,
+      "defense": 204,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 414,
+      "atk": 273.24,
+      "defense": 207,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 420,
+      "atk": 277.2,
+      "defense": 210,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 426,
+      "atk": 281.15999999999997,
+      "defense": 213,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 432,
+      "atk": 285.12,
+      "defense": 216,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 438,
+      "atk": 289.08000000000004,
+      "defense": 219,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 444,
+      "atk": 293.03999999999996,
+      "defense": 222,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 450,
+      "atk": 297.0,
+      "defense": 225,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 498,
+      "atk": 328.68,
+      "defense": 249,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 504,
+      "atk": 332.64,
+      "defense": 252,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 510,
+      "atk": 336.6,
+      "defense": 255,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 516,
+      "atk": 340.56,
+      "defense": 258,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 522,
+      "atk": 344.52,
+      "defense": 261,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 528,
+      "atk": 348.48,
+      "defense": 264,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 534,
+      "atk": 352.44,
+      "defense": 267,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 540,
+      "atk": 356.4,
+      "defense": 270,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 546,
+      "atk": 360.36,
+      "defense": 273,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 552,
+      "atk": 364.32,
+      "defense": 276,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 558,
+      "atk": 368.28,
+      "defense": 279,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 606,
+      "atk": 399.96,
+      "defense": 303,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 612,
+      "atk": 403.91999999999996,
+      "defense": 306,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 618,
+      "atk": 407.88,
+      "defense": 309,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 624,
+      "atk": 411.84,
+      "defense": 312,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 630,
+      "atk": 415.79999999999995,
+      "defense": 315,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 636,
+      "atk": 419.76,
+      "defense": 318,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 642,
+      "atk": 423.72,
+      "defense": 321,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 648,
+      "atk": 427.67999999999995,
+      "defense": 324,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 654,
+      "atk": 431.64,
+      "defense": 327,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 660,
+      "atk": 435.6,
+      "defense": 330,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 666,
+      "atk": 439.55999999999995,
+      "defense": 333,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 714,
+      "atk": 471.24,
+      "defense": 357,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 720,
+      "atk": 475.2,
+      "defense": 360,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 726,
+      "atk": 479.15999999999997,
+      "defense": 363,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 732,
+      "atk": 483.12,
+      "defense": 366,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 738,
+      "atk": 487.08,
+      "defense": 369,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 744,
+      "atk": 491.03999999999996,
+      "defense": 372,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 750,
+      "atk": 495.0,
+      "defense": 375,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 756,
+      "atk": 498.96000000000004,
+      "defense": 378,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 762,
+      "atk": 502.91999999999996,
+      "defense": 381,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 768,
+      "atk": 506.88,
+      "defense": 384,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 774,
+      "atk": 510.84000000000003,
+      "defense": 387,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 822,
+      "atk": 542.52,
+      "defense": 411,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 828,
+      "atk": 546.48,
+      "defense": 414,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 834,
+      "atk": 550.44,
+      "defense": 417,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 840,
+      "atk": 554.4,
+      "defense": 420,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 846,
+      "atk": 558.3599999999999,
+      "defense": 423,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 852,
+      "atk": 562.3199999999999,
+      "defense": 426,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 858,
+      "atk": 566.28,
+      "defense": 429,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 864,
+      "atk": 570.24,
+      "defense": 432,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 870,
+      "atk": 574.2,
+      "defense": 435,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 876,
+      "atk": 578.16,
+      "defense": 438,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 882,
+      "atk": 582.1199999999999,
+      "defense": 441,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

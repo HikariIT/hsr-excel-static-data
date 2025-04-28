@@ -1,0 +1,1251 @@
+{
+  "id": "1304",
+  "name": "Aventurine",
+  "rarity": 5,
+  "path": "Preservation",
+  "damage_type": "Imaginary",
+  "skills": {
+    "130401": {
+      "id": "130401",
+      "name": "Straight Bet",
+      "max_level": 10,
+      "damage_type": "Imaginary",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Imaginary DMG to a single target enemy.",
+      "full_description": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine's DEF to a single target enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "130402": {
+      "id": "130402",
+      "name": "Cornerstone Deluxe",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Defence",
+      "effect_text": "Defence",
+      "simple_description": "Provides all allies with a Fortified Wager shield, <color=#f29e38ff>whose Shield Effect is stackable</color>.",
+      "full_description": "Provides all allies with a Fortified Wager shield that can block DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Aventurine's DEF plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to <unbreak>#4[i]%</unbreak> of the current Shield Effect provided by the Skill.",
+      "params": [
+        [
+          0.16,
+          80,
+          3,
+          2
+        ],
+        [
+          0.17,
+          128,
+          3,
+          2
+        ],
+        [
+          0.18,
+          164,
+          3,
+          2
+        ],
+        [
+          0.19,
+          200,
+          3,
+          2
+        ],
+        [
+          0.2,
+          224,
+          3,
+          2
+        ],
+        [
+          0.208,
+          248,
+          3,
+          2
+        ],
+        [
+          0.216,
+          266,
+          3,
+          2
+        ],
+        [
+          0.224,
+          284,
+          3,
+          2
+        ],
+        [
+          0.232,
+          302,
+          3,
+          2
+        ],
+        [
+          0.24,
+          320,
+          3,
+          2
+        ],
+        [
+          0.248,
+          338,
+          3,
+          2
+        ],
+        [
+          0.256,
+          356,
+          3,
+          2
+        ],
+        [
+          0.264,
+          374,
+          3,
+          2
+        ],
+        [
+          0.272,
+          392,
+          3,
+          2
+        ],
+        [
+          0.28,
+          410,
+          3,
+          2
+        ]
+      ]
+    },
+    "130403": {
+      "id": "130403",
+      "name": "Roulette Shark",
+      "max_level": 15,
+      "damage_type": "Imaginary",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Gains a random amount of \"Blind Bet\" points and inflicts \"Unnerved \"on one enemy, dealing Imaginary DMG. When an ally target hits an \"Unnerved\" enemy, <color=#f29e38ff>the CRIT DMG dealt increases</color>.",
+      "full_description": "Randomly gains 1 to <unbreak>#1[i]</unbreak> points of Blind Bet. Then, inflicts Unnerved on a single target enemy for <unbreak>#4[i]</unbreak> turn(s) and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Aventurine's DEF to the single target enemy. When an ally hits an Unnerved enemy target, the CRIT DMG dealt increases by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>.",
+      "params": [
+        [
+          7,
+          1.62,
+          0.09,
+          3
+        ],
+        [
+          7,
+          1.728,
+          0.096,
+          3
+        ],
+        [
+          7,
+          1.836,
+          0.102,
+          3
+        ],
+        [
+          7,
+          1.944,
+          0.108,
+          3
+        ],
+        [
+          7,
+          2.052,
+          0.114,
+          3
+        ],
+        [
+          7,
+          2.16,
+          0.12,
+          3
+        ],
+        [
+          7,
+          2.295,
+          0.1275,
+          3
+        ],
+        [
+          7,
+          2.43,
+          0.135,
+          3
+        ],
+        [
+          7,
+          2.565,
+          0.1425,
+          3
+        ],
+        [
+          7,
+          2.7,
+          0.15,
+          3
+        ],
+        [
+          7,
+          2.808,
+          0.156,
+          3
+        ],
+        [
+          7,
+          2.916,
+          0.162,
+          3
+        ],
+        [
+          7,
+          3.024,
+          0.168,
+          3
+        ],
+        [
+          7,
+          3.132,
+          0.174,
+          3
+        ],
+        [
+          7,
+          3.24,
+          0.18,
+          3
+        ]
+      ]
+    },
+    "130404": {
+      "id": "130404",
+      "name": "Shot Loaded Right",
+      "max_level": 15,
+      "damage_type": "Imaginary",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Bounce",
+      "effect_text": "Bounce",
+      "simple_description": "For any single ally with Fortified Wager, their Effect RES increases, and when they get attacked, Aventurine accumulates Blind Bet. When Aventurine has Fortified Wager, he can resist <u>Crowd Control debuffs</u>. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a <color=#f29e38ff><u>Follow-up ATK</u></color> that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.",
+      "full_description": "For any single ally with Fortified Wager, their Effect RES increases by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, and when they get attacked, Aventurine gains 1 point of Blind Bet. When Aventurine has Fortified Wager, he can resist <u>Crowd Control debuffs</u>. This effect can trigger again after <unbreak>#5[i]</unbreak> turn(s). Aventurine additionally gains <unbreak>#1[i]</unbreak> point(s) of Blind Bet after getting attacked. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a <unbreak>#2[i]</unbreak>-hit <u>Follow-up ATK</u>, with each hit dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Aventurine's DEF to a single random enemy. Blind Bet is capped at <unbreak>10</unbreak> points.",
+      "params": [
+        [
+          1,
+          7,
+          0.125,
+          0.25,
+          2
+        ],
+        [
+          1,
+          7,
+          0.1375,
+          0.275,
+          2
+        ],
+        [
+          1,
+          7,
+          0.15,
+          0.3,
+          2
+        ],
+        [
+          1,
+          7,
+          0.1625,
+          0.325,
+          2
+        ],
+        [
+          1,
+          7,
+          0.175,
+          0.35,
+          2
+        ],
+        [
+          1,
+          7,
+          0.1875,
+          0.375,
+          2
+        ],
+        [
+          1,
+          7,
+          0.203125,
+          0.40625,
+          2
+        ],
+        [
+          1,
+          7,
+          0.21875,
+          0.4375,
+          2
+        ],
+        [
+          1,
+          7,
+          0.234375,
+          0.46875,
+          2
+        ],
+        [
+          1,
+          7,
+          0.25,
+          0.5,
+          2
+        ],
+        [
+          1,
+          7,
+          0.2625,
+          0.525,
+          2
+        ],
+        [
+          1,
+          7,
+          0.275,
+          0.55,
+          2
+        ],
+        [
+          1,
+          7,
+          0.2875,
+          0.575,
+          2
+        ],
+        [
+          1,
+          7,
+          0.3,
+          0.6,
+          2
+        ],
+        [
+          1,
+          7,
+          0.3125,
+          0.625,
+          2
+        ]
+      ]
+    },
+    "130407": {
+      "id": "130407",
+      "name": "The Red or the Black",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Defence",
+      "effect_text": "Defence",
+      "simple_description": "Using the Technique randomly grants one out of the three DEF Boost effects with different buff values. After entering the next battle, increases all allies' DEF by the corresponding value.",
+      "full_description": "After using the Technique, 1 of the following effects will be granted:\\nThere is a chance for DEF to increase by <unbreak>#1[i]%</unbreak>.\\nThere is a high chance for DEF to increase by <unbreak>#2[i]%</unbreak>.\\nThere is a small chance for DEF to increase by <unbreak>#3[i]%</unbreak>.\\n\\nWhen this Technique is used repeatedly, the acquired effect with the highest buff value is retained.\\nWhen the next battle starts, increases all allies' DEF by the corresponding value, lasting for <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [
+          0.24,
+          0.36,
+          0.6,
+          3
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1304101": {
+      "id": "1304101",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1304201
+      ],
+      "children": [
+        "1304202"
+      ],
+      "params": [
+        0.02,
+        0.48,
+        1600
+      ]
+    },
+    "1304102": {
+      "id": "1304102",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1304201
+      ],
+      "children": [
+        "1304205"
+      ],
+      "params": [
+        3,
+        1
+      ]
+    },
+    "1304103": {
+      "id": "1304103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1304208"
+      ],
+      "params": [
+        0.072,
+        96,
+        3,
+        0.072,
+        96
+      ]
+    }
+  },
+  "minor_traces": {
+    "1304201": {
+      "id": "1304201",
+      "stat": "DefenceAddedRatio",
+      "value": 0.05,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1304202": {
+      "id": "1304202",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1304101
+      ],
+      "children": [
+        "1304203"
+      ]
+    },
+    "1304203": {
+      "id": "1304203",
+      "stat": "DefenceAddedRatio",
+      "value": 0.05,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1304202
+      ],
+      "children": []
+    },
+    "1304204": {
+      "id": "1304204",
+      "stat": "StatusResistanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1304205": {
+      "id": "1304205",
+      "stat": "DefenceAddedRatio",
+      "value": 0.075,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1304102
+      ],
+      "children": [
+        "1304206"
+      ]
+    },
+    "1304206": {
+      "id": "1304206",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1304205
+      ],
+      "children": []
+    },
+    "1304207": {
+      "id": "1304207",
+      "stat": "DefenceAddedRatio",
+      "value": 0.075,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1304208": {
+      "id": "1304208",
+      "stat": "StatusResistanceBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1304103
+      ],
+      "children": [
+        "1304209",
+        "1304210"
+      ]
+    },
+    "1304209": {
+      "id": "1304209",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.064,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1304208
+      ],
+      "children": []
+    },
+    "1304210": {
+      "id": "1304210",
+      "stat": "DefenceAddedRatio",
+      "value": 0.1,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1304208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 110,
+  "stats": {
+    "1/20": {
+      "hp": 163.68,
+      "atk": 60.72,
+      "defense": 89.1,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 171.864,
+      "atk": 63.756,
+      "defense": 93.55499999999999,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 180.048,
+      "atk": 66.792,
+      "defense": 98.00999999999999,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 188.232,
+      "atk": 69.828,
+      "defense": 102.46499999999999,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 196.416,
+      "atk": 72.864,
+      "defense": 106.91999999999999,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 204.6,
+      "atk": 75.9,
+      "defense": 111.375,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 212.784,
+      "atk": 78.936,
+      "defense": 115.83,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 220.96800000000002,
+      "atk": 81.972,
+      "defense": 120.285,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 229.152,
+      "atk": 85.008,
+      "defense": 124.74,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 237.336,
+      "atk": 88.044,
+      "defense": 129.195,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 245.51999999999998,
+      "atk": 91.08,
+      "defense": 133.64999999999998,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 253.704,
+      "atk": 94.116,
+      "defense": 138.105,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 261.88800000000003,
+      "atk": 97.152,
+      "defense": 142.56,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 270.072,
+      "atk": 100.188,
+      "defense": 147.015,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 278.256,
+      "atk": 103.22399999999999,
+      "defense": 151.47,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 286.44,
+      "atk": 106.25999999999999,
+      "defense": 155.925,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 294.624,
+      "atk": 109.29599999999999,
+      "defense": 160.38,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 302.808,
+      "atk": 112.332,
+      "defense": 164.83499999999998,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 310.99199999999996,
+      "atk": 115.368,
+      "defense": 169.29,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 319.176,
+      "atk": 118.404,
+      "defense": 173.745,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 384.64799999999997,
+      "atk": 142.692,
+      "defense": 209.385,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 392.832,
+      "atk": 145.728,
+      "defense": 213.83999999999997,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 401.01599999999996,
+      "atk": 148.764,
+      "defense": 218.29500000000002,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 409.19999999999993,
+      "atk": 151.8,
+      "defense": 222.75,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 417.38399999999996,
+      "atk": 154.836,
+      "defense": 227.20499999999998,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 425.568,
+      "atk": 157.872,
+      "defense": 231.66,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 433.75199999999995,
+      "atk": 160.90800000000002,
+      "defense": 236.115,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 441.936,
+      "atk": 163.94400000000002,
+      "defense": 240.57,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 450.12,
+      "atk": 166.98,
+      "defense": 245.02499999999998,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 458.304,
+      "atk": 170.016,
+      "defense": 249.48000000000002,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 466.48799999999994,
+      "atk": 173.052,
+      "defense": 253.935,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 531.96,
+      "atk": 197.34,
+      "defense": 289.575,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 540.144,
+      "atk": 200.376,
+      "defense": 294.03,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 548.328,
+      "atk": 203.412,
+      "defense": 298.485,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 556.512,
+      "atk": 206.448,
+      "defense": 302.94,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 564.696,
+      "atk": 209.484,
+      "defense": 307.395,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 572.88,
+      "atk": 212.52,
+      "defense": 311.85,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 581.0640000000001,
+      "atk": 215.556,
+      "defense": 316.305,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 589.248,
+      "atk": 218.592,
+      "defense": 320.76,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 597.432,
+      "atk": 221.62800000000001,
+      "defense": 325.21500000000003,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 605.616,
+      "atk": 224.664,
+      "defense": 329.66999999999996,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 613.8,
+      "atk": 227.7,
+      "defense": 334.125,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 679.2719999999999,
+      "atk": 251.988,
+      "defense": 369.765,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 687.4559999999999,
+      "atk": 255.024,
+      "defense": 374.22,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 695.64,
+      "atk": 258.06,
+      "defense": 378.675,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 703.824,
+      "atk": 261.096,
+      "defense": 383.13,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 712.008,
+      "atk": 264.132,
+      "defense": 387.58500000000004,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 720.192,
+      "atk": 267.168,
+      "defense": 392.04,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 728.376,
+      "atk": 270.204,
+      "defense": 396.495,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 736.56,
+      "atk": 273.24,
+      "defense": 400.95000000000005,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 744.7439999999999,
+      "atk": 276.276,
+      "defense": 405.405,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 752.928,
+      "atk": 279.312,
+      "defense": 409.86,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 761.112,
+      "atk": 282.348,
+      "defense": 414.31500000000005,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 826.584,
+      "atk": 306.636,
+      "defense": 449.95500000000004,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 834.768,
+      "atk": 309.672,
+      "defense": 454.40999999999997,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 842.952,
+      "atk": 312.708,
+      "defense": 458.865,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 851.136,
+      "atk": 315.744,
+      "defense": 463.32,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 859.3199999999999,
+      "atk": 318.78000000000003,
+      "defense": 467.775,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 867.5039999999999,
+      "atk": 321.81600000000003,
+      "defense": 472.23,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 875.6879999999999,
+      "atk": 324.852,
+      "defense": 476.685,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 883.872,
+      "atk": 327.88800000000003,
+      "defense": 481.14,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 892.0559999999999,
+      "atk": 330.924,
+      "defense": 485.595,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 900.24,
+      "atk": 333.96000000000004,
+      "defense": 490.04999999999995,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 908.424,
+      "atk": 336.996,
+      "defense": 494.505,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 973.896,
+      "atk": 361.284,
+      "defense": 530.145,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 982.0799999999999,
+      "atk": 364.32,
+      "defense": 534.6,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 990.2639999999999,
+      "atk": 367.356,
+      "defense": 539.0550000000001,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 998.448,
+      "atk": 370.392,
+      "defense": 543.51,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 1006.6320000000001,
+      "atk": 373.428,
+      "defense": 547.965,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 1014.816,
+      "atk": 376.464,
+      "defense": 552.4200000000001,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 1023.0,
+      "atk": 379.5,
+      "defense": 556.875,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 1031.184,
+      "atk": 382.536,
+      "defense": 561.33,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 1039.368,
+      "atk": 385.572,
+      "defense": 565.7850000000001,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 1047.552,
+      "atk": 388.608,
+      "defense": 570.24,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 1055.7359999999999,
+      "atk": 391.644,
+      "defense": 574.6949999999999,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1121.2079999999999,
+      "atk": 415.932,
+      "defense": 610.335,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1129.3919999999998,
+      "atk": 418.968,
+      "defense": 614.79,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1137.576,
+      "atk": 422.004,
+      "defense": 619.245,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1145.7599999999998,
+      "atk": 425.04,
+      "defense": 623.7,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1153.944,
+      "atk": 428.076,
+      "defense": 628.155,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1162.128,
+      "atk": 431.112,
+      "defense": 632.61,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1170.312,
+      "atk": 434.148,
+      "defense": 637.065,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1178.4959999999999,
+      "atk": 437.18399999999997,
+      "defense": 641.52,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1186.6799999999998,
+      "atk": 440.22,
+      "defense": 645.975,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1194.864,
+      "atk": 443.256,
+      "defense": 650.4300000000001,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1203.0479999999998,
+      "atk": 446.29200000000003,
+      "defense": 654.885,
+      "spd": 106,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

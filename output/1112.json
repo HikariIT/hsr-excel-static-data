@@ -1,0 +1,1176 @@
+{
+  "id": "1112",
+  "name": "Topaz & Numby",
+  "rarity": 5,
+  "path": "The Hunt",
+  "damage_type": "Fire",
+  "skills": {
+    "111201": {
+      "id": "111201",
+      "name": "Deficit...",
+      "max_level": 10,
+      "damage_type": "Fire",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Fire DMG to an enemy.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Topaz's ATK to a single enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "111202": {
+      "id": "111202",
+      "name": "Difficulty Paying?",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Inflicts one enemy with a \"Proof of Debt\" state and causes it to <color=#f29e38ff>receive increased Follow-up ATK DMG</color>. Numby deals Fire DMG to the target.",
+      "full_description": "Inflicts a single target enemy with a Proof of Debt status, increasing the <u>Follow-up ATK</u> DMG it receives by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt.\\nNumby deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a <u>Follow-up ATK</u>.",
+      "params": [
+        [
+          0.75,
+          0.25
+        ],
+        [
+          0.825,
+          0.275
+        ],
+        [
+          0.9,
+          0.3
+        ],
+        [
+          0.975,
+          0.325
+        ],
+        [
+          1.05,
+          0.35
+        ],
+        [
+          1.125,
+          0.375
+        ],
+        [
+          1.21875,
+          0.40625
+        ],
+        [
+          1.3125,
+          0.4375
+        ],
+        [
+          1.40625,
+          0.46875
+        ],
+        [
+          1.5,
+          0.5
+        ],
+        [
+          1.575,
+          0.525
+        ],
+        [
+          1.65,
+          0.55
+        ],
+        [
+          1.725,
+          0.575
+        ],
+        [
+          1.8,
+          0.6
+        ],
+        [
+          1.875,
+          0.625
+        ]
+      ]
+    },
+    "111203": {
+      "id": "111203",
+      "name": "Turn a Profit!",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "Numby enters the Windfall Bonanza! state and <color=#f29e38ff>increases its DMG multiplier and CRIT DMG</color>.",
+      "full_description": "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by <unbreak>#3[i]%</unbreak>. Numby exits the Windfall Bonanza! state after using <unbreak>#4[i]</unbreak> attacks.",
+      "params": [
+        [
+          0.75,
+          0.125,
+          0.5,
+          2
+        ],
+        [
+          0.825,
+          0.1375,
+          0.5,
+          2
+        ],
+        [
+          0.9,
+          0.15,
+          0.5,
+          2
+        ],
+        [
+          0.975,
+          0.1625,
+          0.5,
+          2
+        ],
+        [
+          1.05,
+          0.175,
+          0.5,
+          2
+        ],
+        [
+          1.125,
+          0.1875,
+          0.5,
+          2
+        ],
+        [
+          1.21875,
+          0.203125,
+          0.5,
+          2
+        ],
+        [
+          1.3125,
+          0.21875,
+          0.5,
+          2
+        ],
+        [
+          1.40625,
+          0.234375,
+          0.5,
+          2
+        ],
+        [
+          1.5,
+          0.25,
+          0.5,
+          2
+        ],
+        [
+          1.575,
+          0.2625,
+          0.5,
+          2
+        ],
+        [
+          1.65,
+          0.275,
+          0.5,
+          2
+        ],
+        [
+          1.725,
+          0.2875,
+          0.5,
+          2
+        ],
+        [
+          1.8,
+          0.3,
+          0.5,
+          2
+        ],
+        [
+          1.875,
+          0.3125,
+          0.5,
+          2
+        ]
+      ]
+    },
+    "111204": {
+      "id": "111204",
+      "name": "Trotter Market!?",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "At the start of the battle, <color=#f29e38ff>summons Numby</color>. When Numby takes action, it <color=#f29e38ff>launches <u>Follow-up ATK</u> on a target afflicted with \"Proof of Debt\"</color>, dealing Fire DMG.\\nWhen an enemy afflicted with \"Proof of Debt\" receives <u>Follow-up ATK</u>, Numby's <color=#f29e38ff>action advances</color>.",
+      "full_description": "Summons Numby at the start of battle. Numby has <unbreak>#1[i]</unbreak> SPD by default. When taking action, Numby launches <u>Follow-up ATKs</u> on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Topaz's ATK.\\nWhen enemies afflicted with Proof of Debt receive an ally's Follow-up ATKs, Numby's action is Advanced Forward by <unbreak>#3[i]%</unbreak>. The action Advance Forward effect cannot be triggered during Numby's own turn.\\nWhen Topaz is <u>downed</u>, Numby disappears.",
+      "params": [
+        [
+          80,
+          0.75,
+          0.5
+        ],
+        [
+          80,
+          0.825,
+          0.5
+        ],
+        [
+          80,
+          0.9,
+          0.5
+        ],
+        [
+          80,
+          0.975,
+          0.5
+        ],
+        [
+          80,
+          1.05,
+          0.5
+        ],
+        [
+          80,
+          1.125,
+          0.5
+        ],
+        [
+          80,
+          1.21875,
+          0.5
+        ],
+        [
+          80,
+          1.3125,
+          0.5
+        ],
+        [
+          80,
+          1.40625,
+          0.5
+        ],
+        [
+          80,
+          1.5,
+          0.5
+        ],
+        [
+          80,
+          1.575,
+          0.5
+        ],
+        [
+          80,
+          1.65,
+          0.5
+        ],
+        [
+          80,
+          1.725,
+          0.5
+        ],
+        [
+          80,
+          1.8,
+          0.5
+        ],
+        [
+          80,
+          1.875,
+          0.5
+        ]
+      ]
+    },
+    "111207": {
+      "id": "111207",
+      "name": "Explicit Subsidy",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "<color=#f29e38ff>Summons Numby to tag along</color> in a map. Numby will automatically <color=#f29e38ff>search for Basic Treasures and Trotters nearby</color>. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.",
+      "full_description": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\\nUsing her Technique will regenerate <unbreak>#1[i]</unbreak> Energy for Topaz after Numby's first attack in the next battle.\\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of <unbreak>#2[i]</unbreak> bonus credits can be received per calendar day.\\nAfter using her Technique and defeating enemies in Simulated Universe or Divergent Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
+      "params": [
+        [
+          60,
+          10000
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1112101": {
+      "id": "1112101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1112202"
+      ],
+      "params": []
+    },
+    "1112102": {
+      "id": "1112102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1112205"
+      ],
+      "params": [
+        0.15
+      ]
+    },
+    "1112103": {
+      "id": "1112103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1112208"
+      ],
+      "params": [
+        10
+      ]
+    }
+  },
+  "minor_traces": {
+    "1112201": {
+      "id": "1112201",
+      "stat": "FireAddedRatio",
+      "value": 0.032,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1112202": {
+      "id": "1112202",
+      "stat": "CriticalChanceBase",
+      "value": 0.026999999,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1112101
+      ],
+      "children": [
+        "1112203"
+      ]
+    },
+    "1112203": {
+      "id": "1112203",
+      "stat": "FireAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1112202
+      ],
+      "children": []
+    },
+    "1112204": {
+      "id": "1112204",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1112205": {
+      "id": "1112205",
+      "stat": "FireAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1112102
+      ],
+      "children": [
+        "1112206"
+      ]
+    },
+    "1112206": {
+      "id": "1112206",
+      "stat": "CriticalChanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1112205
+      ],
+      "children": []
+    },
+    "1112207": {
+      "id": "1112207",
+      "stat": "FireAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1112208": {
+      "id": "1112208",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1112103
+      ],
+      "children": [
+        "1112209",
+        "1112210"
+      ]
+    },
+    "1112209": {
+      "id": "1112209",
+      "stat": "CriticalChanceBase",
+      "value": 0.053,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1112208
+      ],
+      "children": []
+    },
+    "1112210": {
+      "id": "1112210",
+      "stat": "FireAddedRatio",
+      "value": 0.064,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1112208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 130,
+  "stats": {
+    "1/20": {
+      "hp": 126.72,
+      "atk": 84.48,
+      "defense": 56.1,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 133.056,
+      "atk": 88.70400000000001,
+      "defense": 58.905,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 139.392,
+      "atk": 92.928,
+      "defense": 61.71,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 145.728,
+      "atk": 97.152,
+      "defense": 64.515,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 152.064,
+      "atk": 101.376,
+      "defense": 67.32000000000001,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 158.4,
+      "atk": 105.60000000000001,
+      "defense": 70.125,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 164.736,
+      "atk": 109.82400000000001,
+      "defense": 72.93,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 171.072,
+      "atk": 114.048,
+      "defense": 75.735,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 177.40800000000002,
+      "atk": 118.272,
+      "defense": 78.54,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 183.744,
+      "atk": 122.49600000000001,
+      "defense": 81.345,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 190.07999999999998,
+      "atk": 126.72,
+      "defense": 84.15,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 196.416,
+      "atk": 130.94400000000002,
+      "defense": 86.955,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 202.752,
+      "atk": 135.168,
+      "defense": 89.76,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 209.08800000000002,
+      "atk": 139.392,
+      "defense": 92.565,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 215.424,
+      "atk": 143.616,
+      "defense": 95.37,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 221.76,
+      "atk": 147.84,
+      "defense": 98.17500000000001,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 228.096,
+      "atk": 152.06400000000002,
+      "defense": 100.98,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 234.43200000000002,
+      "atk": 156.288,
+      "defense": 103.785,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 240.768,
+      "atk": 160.512,
+      "defense": 106.59,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 247.10399999999998,
+      "atk": 164.736,
+      "defense": 109.39500000000001,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 297.792,
+      "atk": 198.52800000000002,
+      "defense": 131.835,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 304.128,
+      "atk": 202.752,
+      "defense": 134.64000000000001,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 310.464,
+      "atk": 206.976,
+      "defense": 137.445,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 316.79999999999995,
+      "atk": 211.2,
+      "defense": 140.25,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 323.13599999999997,
+      "atk": 215.424,
+      "defense": 143.055,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 329.472,
+      "atk": 219.64800000000002,
+      "defense": 145.86,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 335.808,
+      "atk": 223.872,
+      "defense": 148.66500000000002,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 342.144,
+      "atk": 228.096,
+      "defense": 151.47000000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 348.48,
+      "atk": 232.32,
+      "defense": 154.275,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 354.81600000000003,
+      "atk": 236.544,
+      "defense": 157.08,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 361.152,
+      "atk": 240.76800000000003,
+      "defense": 159.885,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 411.84000000000003,
+      "atk": 274.56,
+      "defense": 182.325,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 418.17600000000004,
+      "atk": 278.784,
+      "defense": 185.13,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 424.512,
+      "atk": 283.00800000000004,
+      "defense": 187.935,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 430.848,
+      "atk": 287.23199999999997,
+      "defense": 190.74,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 437.184,
+      "atk": 291.456,
+      "defense": 193.54500000000002,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 443.52,
+      "atk": 295.68,
+      "defense": 196.35000000000002,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 449.856,
+      "atk": 299.904,
+      "defense": 199.15500000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 456.192,
+      "atk": 304.12800000000004,
+      "defense": 201.96,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 462.528,
+      "atk": 308.352,
+      "defense": 204.76500000000001,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 468.86400000000003,
+      "atk": 312.576,
+      "defense": 207.57,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 475.20000000000005,
+      "atk": 316.8,
+      "defense": 210.375,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 525.888,
+      "atk": 350.592,
+      "defense": 232.815,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 532.2239999999999,
+      "atk": 354.81600000000003,
+      "defense": 235.62,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 538.56,
+      "atk": 359.03999999999996,
+      "defense": 238.425,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 544.896,
+      "atk": 363.264,
+      "defense": 241.23000000000002,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 551.232,
+      "atk": 367.488,
+      "defense": 244.03500000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 557.568,
+      "atk": 371.712,
+      "defense": 246.84,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 563.904,
+      "atk": 375.93600000000004,
+      "defense": 249.645,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 570.24,
+      "atk": 380.15999999999997,
+      "defense": 252.45,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 576.576,
+      "atk": 384.384,
+      "defense": 255.255,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 582.912,
+      "atk": 388.608,
+      "defense": 258.06,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 589.248,
+      "atk": 392.832,
+      "defense": 260.865,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 639.9359999999999,
+      "atk": 426.624,
+      "defense": 283.30500000000006,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 646.2719999999999,
+      "atk": 430.848,
+      "defense": 286.11,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 652.608,
+      "atk": 435.072,
+      "defense": 288.915,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 658.944,
+      "atk": 439.29600000000005,
+      "defense": 291.72,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 665.28,
+      "atk": 443.52,
+      "defense": 294.52500000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 671.616,
+      "atk": 447.744,
+      "defense": 297.33000000000004,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 677.952,
+      "atk": 451.968,
+      "defense": 300.135,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 684.288,
+      "atk": 456.192,
+      "defense": 302.94000000000005,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 690.624,
+      "atk": 460.416,
+      "defense": 305.745,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 696.96,
+      "atk": 464.64,
+      "defense": 308.55,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 703.296,
+      "atk": 468.86400000000003,
+      "defense": 311.355,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 753.984,
+      "atk": 502.656,
+      "defense": 333.795,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 760.32,
+      "atk": 506.88,
+      "defense": 336.6,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 766.6560000000001,
+      "atk": 511.104,
+      "defense": 339.40500000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 772.992,
+      "atk": 515.328,
+      "defense": 342.21000000000004,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 779.328,
+      "atk": 519.552,
+      "defense": 345.015,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 785.664,
+      "atk": 523.7760000000001,
+      "defense": 347.82000000000005,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 792.0,
+      "atk": 528.0,
+      "defense": 350.625,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 798.336,
+      "atk": 532.2239999999999,
+      "defense": 353.43000000000006,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 804.672,
+      "atk": 536.4480000000001,
+      "defense": 356.235,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 811.008,
+      "atk": 540.672,
+      "defense": 359.04,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 817.344,
+      "atk": 544.896,
+      "defense": 361.845,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 868.032,
+      "atk": 578.6880000000001,
+      "defense": 384.285,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 874.368,
+      "atk": 582.912,
+      "defense": 387.09000000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 880.704,
+      "atk": 587.136,
+      "defense": 389.895,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 887.04,
+      "atk": 591.3600000000001,
+      "defense": 392.70000000000005,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 893.376,
+      "atk": 595.5840000000001,
+      "defense": 395.505,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 899.712,
+      "atk": 599.808,
+      "defense": 398.31000000000006,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 906.048,
+      "atk": 604.032,
+      "defense": 401.115,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 912.384,
+      "atk": 608.2560000000001,
+      "defense": 403.92,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 918.72,
+      "atk": 612.48,
+      "defense": 406.725,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 925.056,
+      "atk": 616.7040000000001,
+      "defense": 409.53000000000003,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 931.392,
+      "atk": 620.9280000000001,
+      "defense": 412.33500000000004,
+      "spd": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

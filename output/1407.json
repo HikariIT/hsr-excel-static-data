@@ -1,0 +1,1323 @@
+{
+  "id": "1407",
+  "name": "Castorice",
+  "rarity": 5,
+  "path": "Remembrance",
+  "damage_type": "Quantum",
+  "skills": {
+    "140701": {
+      "id": "140701",
+      "name": "Lament, Nethersea's Ripple",
+      "max_level": 10,
+      "damage_type": "Quantum",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Quantum DMG to one enemy.",
+      "full_description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Castorice's Max HP to one designated enemy.",
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.3
+        ],
+        [
+          0.35
+        ],
+        [
+          0.4
+        ],
+        [
+          0.45
+        ],
+        [
+          0.5
+        ],
+        [
+          0.55
+        ],
+        [
+          0.6
+        ],
+        [
+          0.65
+        ],
+        [
+          0.7
+        ]
+      ]
+    },
+    "140702": {
+      "id": "140702",
+      "name": "Silence, Wraithfly's Caress",
+      "max_level": 15,
+      "damage_type": "Quantum",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.",
+      "full_description": "Consumes <unbreak>#1[i]%</unbreak> of all allies' current HP. Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Castorice's Max HP to one designated enemy and Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.",
+      "params": [
+        [
+          0.3,
+          0.25,
+          0.15
+        ],
+        [
+          0.3,
+          0.275,
+          0.165
+        ],
+        [
+          0.3,
+          0.3,
+          0.18
+        ],
+        [
+          0.3,
+          0.325,
+          0.195
+        ],
+        [
+          0.3,
+          0.35,
+          0.21
+        ],
+        [
+          0.3,
+          0.375,
+          0.225
+        ],
+        [
+          0.3,
+          0.40625,
+          0.24375
+        ],
+        [
+          0.3,
+          0.4375,
+          0.2625
+        ],
+        [
+          0.3,
+          0.46875,
+          0.28125
+        ],
+        [
+          0.3,
+          0.5,
+          0.3
+        ],
+        [
+          0.3,
+          0.525,
+          0.315
+        ],
+        [
+          0.3,
+          0.55,
+          0.33
+        ],
+        [
+          0.3,
+          0.575,
+          0.345
+        ],
+        [
+          0.3,
+          0.6,
+          0.36
+        ],
+        [
+          0.3,
+          0.625,
+          0.375
+        ]
+      ]
+    },
+    "140703": {
+      "id": "140703",
+      "name": "Doomshriek, Dawn's Chime",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Summon",
+      "effect_text": "Summon",
+      "simple_description": "<color=#f29e38ff><u>Summons the memosprite</u></color> Netherwing and <u>advances its action</u> by <unbreak>100%</unbreak>. At the same time, deploys a <u>Territory</u> that <color=#f29e38ff>decreases All-Type RES</color> for all enemies.",
+      "full_description": "<u>Summons the memosprite</u> Netherwing and <u>advances its action</u> by <unbreak>100%</unbreak>. At the same time, deploys the <u>Territory</u> \"Lost Netherland,\" which decreases all enemies' All-Type RES by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of <unbreak>#1[i]</unbreak> and a set Max HP equal to <unbreak>#3[i]%</unbreak> of max \"Newbud.\"\\nAfter Netherwing experiences <unbreak>#2[i]</unbreak> turns or when its HP is 0, it disappears and dispels the <u>Territory</u> \"Lost Netherland.\"",
+      "params": [
+        [
+          165,
+          3,
+          1,
+          0.1,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.11,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.12,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.13,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.14,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.15,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.1625,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.175,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.1875,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.2,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.21,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.22,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.23,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.24,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.25,
+          0
+        ]
+      ]
+    },
+    "140704": {
+      "id": "140704",
+      "name": "Desolation Across Palms",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "When allies lose HP, Castorice gains <color=#f29e38ff>\"Newbud\"</color>. Increases Castorice's and Netherwing's <color=#f29e38ff>DMG dealt</color>. When <color=#f29e38ff>\"Newbud\"</color> reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+      "full_description": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s), lasting for <unbreak>#4[i]</unbreak> turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+      "params": [
+        [
+          0,
+          0.1,
+          3,
+          3
+        ],
+        [
+          0,
+          0.11,
+          3,
+          3
+        ],
+        [
+          0,
+          0.12,
+          3,
+          3
+        ],
+        [
+          0,
+          0.13,
+          3,
+          3
+        ],
+        [
+          0,
+          0.14,
+          3,
+          3
+        ],
+        [
+          0,
+          0.15,
+          3,
+          3
+        ],
+        [
+          0,
+          0.1625,
+          3,
+          3
+        ],
+        [
+          0,
+          0.175,
+          3,
+          3
+        ],
+        [
+          0,
+          0.1875,
+          3,
+          3
+        ],
+        [
+          0,
+          0.2,
+          3,
+          3
+        ],
+        [
+          0,
+          0.21,
+          3,
+          3
+        ],
+        [
+          0,
+          0.22,
+          3,
+          3
+        ],
+        [
+          0,
+          0.23,
+          3,
+          3
+        ],
+        [
+          0,
+          0.24,
+          3,
+          3
+        ],
+        [
+          0,
+          0.25,
+          3,
+          3
+        ]
+      ]
+    },
+    "140707": {
+      "id": "140707",
+      "name": "Wail, Death's Herald",
+      "max_level": 1,
+      "damage_type": "Quantum",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "MazeAttack",
+      "effect_text": "MazeAttack",
+      "simple_description": "Enters the \"Netherveil\" state. Enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" attacks will cause all enemies within range to enter combat. At the same time, <color=#f29e38ff><u>summons the memosprite</u></color> Netherwing, <u>advances its action</u> by <unbreak>100%</unbreak>. Upon entering battle, consumes HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of max \"Newbud.\"",
+      "full_description": "After using Technique, enters the \"Netherveil\" state that lasts for <unbreak>#3[i]</unbreak> seconds. While \"Netherveil\" is active, enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" active attacks will cause all enemies within range to enter combat. At the same time, <u>summons the memosprite</u> Netherwing, <u>advances its action</u> by <unbreak>100%</unbreak>, and deploys the <u>Territory</u> \"Lost Netherland.\" Netherwing has its current HP equal to <unbreak>#2[i]%</unbreak> of max \"Newbud.\" After entering battle, consumes <unbreak>#1[i]%</unbreak> of the current HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to <unbreak>#4[i]%</unbreak> of max \"Newbud.\"",
+      "params": [
+        [
+          0.4,
+          0.5,
+          20,
+          0.3
+        ]
+      ]
+    },
+    "1140701": {
+      "id": "1140701",
+      "name": "Claw Splits the Veil",
+      "max_level": 10,
+      "damage_type": "Quantum",
+      "type": "Servant",
+      "type_text": "Memosprite Skill",
+      "effect": "AoEAttack",
+      "effect_text": "AoEAttack",
+      "simple_description": "Deals minor Quantum DMG to all enemies.",
+      "full_description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Castorice's Max HP to all enemies.",
+      "params": [
+        [
+          0.2
+        ],
+        [
+          0.24
+        ],
+        [
+          0.28
+        ],
+        [
+          0.32
+        ],
+        [
+          0.36
+        ],
+        [
+          0.4
+        ],
+        [
+          0.44
+        ],
+        [
+          0.48
+        ],
+        [
+          0.52
+        ],
+        [
+          0.56
+        ]
+      ]
+    },
+    "1140703": {
+      "id": "1140703",
+      "name": "Mooncocoon Shrouds the Form",
+      "max_level": 10,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Memosprite Talent",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "When Netherwing is on the field, it acts as <u>backup</u> for allies. Allies' current HP can be reduced down to a minimum of 1, after which Netherwing will bear the DMG received or the HP consumed.",
+      "full_description": "When Netherwing is on the field, it acts as <u>backup</u> for allies. When allies take DMG or consume HP, their current HP can be reduced down to a minimum of 1, after which Netherwing will bear the HP loss. But Netherwing consumes HP equal to <unbreak>#1[i]%</unbreak> of the original value. This lasts until Netherwing disappears.",
+      "params": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1407101": {
+      "id": "1407101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1407204",
+        "1407205"
+      ],
+      "params": [
+        1,
+        0.12
+      ]
+    },
+    "1407102": {
+      "id": "1407102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1407206",
+        "1407207"
+      ],
+      "params": [
+        0.5,
+        0.4,
+        1
+      ]
+    },
+    "1407103": {
+      "id": "1407103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1407208"
+      ],
+      "params": [
+        0.3,
+        6
+      ]
+    }
+  },
+  "minor_traces": {
+    "1407201": {
+      "id": "1407201",
+      "stat": "CriticalChanceBase",
+      "value": 0.026999999,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": [
+        "1407202",
+        "1407203"
+      ]
+    },
+    "1407202": {
+      "id": "1407202",
+      "stat": "QuantumAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1407201
+      ],
+      "children": []
+    },
+    "1407203": {
+      "id": "1407203",
+      "stat": "CriticalChanceBase",
+      "value": 0.026999999,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1407201
+      ],
+      "children": []
+    },
+    "1407204": {
+      "id": "1407204",
+      "stat": "CriticalDamageBase",
+      "value": 0.053,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1407101
+      ],
+      "children": []
+    },
+    "1407205": {
+      "id": "1407205",
+      "stat": "CriticalChanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1407101
+      ],
+      "children": []
+    },
+    "1407206": {
+      "id": "1407206",
+      "stat": "QuantumAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1407102
+      ],
+      "children": []
+    },
+    "1407207": {
+      "id": "1407207",
+      "stat": "CriticalChanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1407102
+      ],
+      "children": []
+    },
+    "1407208": {
+      "id": "1407208",
+      "stat": "CriticalDamageBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1407103
+      ],
+      "children": [
+        "1407209"
+      ]
+    },
+    "1407209": {
+      "id": "1407209",
+      "stat": "QuantumAddedRatio",
+      "value": 0.064,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1407208
+      ],
+      "children": [
+        "1407210"
+      ]
+    },
+    "1407210": {
+      "id": "1407210",
+      "stat": "CriticalChanceBase",
+      "value": 0.053,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1407209
+      ],
+      "children": []
+    }
+  },
+  "max_energy": null,
+  "stats": {
+    "1/20": {
+      "hp": 221.76,
+      "atk": 71.28,
+      "defense": 66.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 232.84799999999998,
+      "atk": 74.844,
+      "defense": 69.3,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 243.93599999999998,
+      "atk": 78.408,
+      "defense": 72.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 255.024,
+      "atk": 81.97200000000001,
+      "defense": 75.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 266.11199999999997,
+      "atk": 85.536,
+      "defense": 79.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 277.2,
+      "atk": 89.1,
+      "defense": 82.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 288.288,
+      "atk": 92.664,
+      "defense": 85.8,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 299.376,
+      "atk": 96.22800000000001,
+      "defense": 89.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 310.464,
+      "atk": 99.792,
+      "defense": 92.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 321.55199999999996,
+      "atk": 103.356,
+      "defense": 95.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 332.64,
+      "atk": 106.92,
+      "defense": 99.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 343.72799999999995,
+      "atk": 110.48400000000001,
+      "defense": 102.3,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 354.816,
+      "atk": 114.048,
+      "defense": 105.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 365.904,
+      "atk": 117.612,
+      "defense": 108.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 376.99199999999996,
+      "atk": 121.176,
+      "defense": 112.19999999999999,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 388.08,
+      "atk": 124.74000000000001,
+      "defense": 115.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 399.168,
+      "atk": 128.304,
+      "defense": 118.8,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 410.256,
+      "atk": 131.868,
+      "defense": 122.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 421.34399999999994,
+      "atk": 135.43200000000002,
+      "defense": 125.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 432.432,
+      "atk": 138.996,
+      "defense": 128.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 521.136,
+      "atk": 167.508,
+      "defense": 155.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 532.2239999999999,
+      "atk": 171.072,
+      "defense": 158.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 543.312,
+      "atk": 174.636,
+      "defense": 161.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 554.4,
+      "atk": 178.2,
+      "defense": 165.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 565.4879999999999,
+      "atk": 181.764,
+      "defense": 168.3,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 576.576,
+      "atk": 185.328,
+      "defense": 171.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 587.664,
+      "atk": 188.892,
+      "defense": 174.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 598.752,
+      "atk": 192.45600000000002,
+      "defense": 178.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 609.8399999999999,
+      "atk": 196.02,
+      "defense": 181.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 620.928,
+      "atk": 199.584,
+      "defense": 184.8,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 632.016,
+      "atk": 203.148,
+      "defense": 188.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 720.72,
+      "atk": 231.66,
+      "defense": 214.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 731.808,
+      "atk": 235.224,
+      "defense": 217.8,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 742.896,
+      "atk": 238.788,
+      "defense": 221.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 753.9839999999999,
+      "atk": 242.352,
+      "defense": 224.39999999999998,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 765.072,
+      "atk": 245.916,
+      "defense": 227.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 776.16,
+      "atk": 249.48000000000002,
+      "defense": 231.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 787.248,
+      "atk": 253.044,
+      "defense": 234.3,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 798.336,
+      "atk": 256.608,
+      "defense": 237.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 809.424,
+      "atk": 260.172,
+      "defense": 240.89999999999998,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 820.512,
+      "atk": 263.736,
+      "defense": 244.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 831.5999999999999,
+      "atk": 267.3,
+      "defense": 247.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 920.304,
+      "atk": 295.812,
+      "defense": 273.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 931.392,
+      "atk": 299.376,
+      "defense": 277.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 942.48,
+      "atk": 302.94,
+      "defense": 280.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 953.568,
+      "atk": 306.504,
+      "defense": 283.79999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 964.656,
+      "atk": 310.068,
+      "defense": 287.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 975.7439999999999,
+      "atk": 313.632,
+      "defense": 290.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 986.832,
+      "atk": 317.196,
+      "defense": 293.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 997.92,
+      "atk": 320.76,
+      "defense": 297.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 1009.008,
+      "atk": 324.324,
+      "defense": 300.29999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 1020.096,
+      "atk": 327.88800000000003,
+      "defense": 303.59999999999997,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 1031.184,
+      "atk": 331.452,
+      "defense": 306.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 1119.888,
+      "atk": 359.964,
+      "defense": 333.29999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 1130.976,
+      "atk": 363.528,
+      "defense": 336.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 1142.0639999999999,
+      "atk": 367.092,
+      "defense": 339.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 1153.152,
+      "atk": 370.656,
+      "defense": 343.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 1164.24,
+      "atk": 374.22,
+      "defense": 346.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 1175.328,
+      "atk": 377.784,
+      "defense": 349.79999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 1186.416,
+      "atk": 381.348,
+      "defense": 353.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 1197.504,
+      "atk": 384.91200000000003,
+      "defense": 356.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 1208.592,
+      "atk": 388.476,
+      "defense": 359.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 1219.6799999999998,
+      "atk": 392.03999999999996,
+      "defense": 363.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 1230.768,
+      "atk": 395.60400000000004,
+      "defense": 366.29999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 1319.472,
+      "atk": 424.116,
+      "defense": 392.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 1330.56,
+      "atk": 427.68,
+      "defense": 396.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 1341.648,
+      "atk": 431.244,
+      "defense": 399.29999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 1352.7359999999999,
+      "atk": 434.808,
+      "defense": 402.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 1363.824,
+      "atk": 438.372,
+      "defense": 405.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 1374.9119999999998,
+      "atk": 441.93600000000004,
+      "defense": 409.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 1386.0,
+      "atk": 445.5,
+      "defense": 412.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 1397.088,
+      "atk": 449.06399999999996,
+      "defense": 415.79999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 1408.176,
+      "atk": 452.62800000000004,
+      "defense": 419.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 1419.264,
+      "atk": 456.192,
+      "defense": 422.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 1430.3519999999999,
+      "atk": 459.756,
+      "defense": 425.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1519.056,
+      "atk": 488.26800000000003,
+      "defense": 452.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1530.144,
+      "atk": 491.832,
+      "defense": 455.4,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1541.232,
+      "atk": 495.396,
+      "defense": 458.7,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1552.32,
+      "atk": 498.96000000000004,
+      "defense": 462.0,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1563.408,
+      "atk": 502.524,
+      "defense": 465.29999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1574.496,
+      "atk": 506.08799999999997,
+      "defense": 468.6,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1585.5839999999998,
+      "atk": 509.65200000000004,
+      "defense": 471.9,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1596.672,
+      "atk": 513.216,
+      "defense": 475.2,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1607.76,
+      "atk": 516.78,
+      "defense": 478.5,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1618.848,
+      "atk": 520.344,
+      "defense": 481.79999999999995,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1629.936,
+      "atk": 523.908,
+      "defense": 485.1,
+      "spd": 95,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

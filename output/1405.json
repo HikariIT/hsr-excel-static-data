@@ -1,0 +1,1152 @@
+{
+  "id": "1405",
+  "name": "Anaxa",
+  "rarity": 5,
+  "path": "Erudition",
+  "damage_type": "Wind",
+  "skills": {
+    "140501": {
+      "id": "140501",
+      "name": "Pain, Brews Truth",
+      "max_level": 10,
+      "damage_type": "Wind",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Wind DMG to one enemy.",
+      "full_description": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Anaxa's ATK to one designated enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "140502": {
+      "id": "140502",
+      "name": "Fractal, Exiles Fallacy",
+      "max_level": 15,
+      "damage_type": "Wind",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Bounce",
+      "effect_text": "Bounce",
+      "simple_description": "Deals minor Wind DMG to one enemy and Bounces 5 times in total, prioritizing Bouncing to targets that have not been hit. The more enemy targets on the battlefield, the higher the DMG.",
+      "full_description": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Anaxa's ATK to one designated enemy and additionally deals <unbreak>#2[i]</unbreak> instance(s) of DMG. Each instance of DMG deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.\\nWhen used, for each attackable enemy on the field, this Skill has its DMG dealt increased by <unbreak>#3[i]%</unbreak>.",
+      "params": [
+        [
+          0.35,
+          4,
+          0.2
+        ],
+        [
+          0.385,
+          4,
+          0.2
+        ],
+        [
+          0.42,
+          4,
+          0.2
+        ],
+        [
+          0.455,
+          4,
+          0.2
+        ],
+        [
+          0.49,
+          4,
+          0.2
+        ],
+        [
+          0.525,
+          4,
+          0.2
+        ],
+        [
+          0.56875,
+          4,
+          0.2
+        ],
+        [
+          0.6125,
+          4,
+          0.2
+        ],
+        [
+          0.65625,
+          4,
+          0.2
+        ],
+        [
+          0.7,
+          4,
+          0.2
+        ],
+        [
+          0.735,
+          4,
+          0.2
+        ],
+        [
+          0.77,
+          4,
+          0.2
+        ],
+        [
+          0.805,
+          4,
+          0.2
+        ],
+        [
+          0.84,
+          4,
+          0.2
+        ],
+        [
+          0.875,
+          4,
+          0.2
+        ]
+      ]
+    },
+    "140503": {
+      "id": "140503",
+      "name": "Sprouting Life Sculpts Earth",
+      "max_level": 15,
+      "damage_type": "Wind",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "AoEAttack",
+      "effect_text": "AoEAttack",
+      "simple_description": "Inflicts \"Sublimation\" on all enemies and deals Wind DMG. In the \"Sublimation\" state, targets will be simultaneously inflicted with <color=#f29e38ff>7 types of Weaknesses</color>, and can't take action if they do not have Control RES.",
+      "full_description": "Inflicts the \"Sublimation\" state on all enemies, then deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Anaxa's ATK to all enemies.\\nIn the \"Sublimation\" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the \"Sublimation\" state.",
+      "params": [
+        [
+          0.8
+        ],
+        [
+          0.88
+        ],
+        [
+          0.96
+        ],
+        [
+          1.04
+        ],
+        [
+          1.12
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ],
+        [
+          1.5
+        ],
+        [
+          1.6
+        ],
+        [
+          1.68
+        ],
+        [
+          1.76
+        ],
+        [
+          1.84
+        ],
+        [
+          1.92
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "140504": {
+      "id": "140504",
+      "name": "Tetrad Wisdom Reigns Thrice",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "After hitting enemy targets, inflicts 1 <color=#f29e38ff>random Weakness</color>. Enemies whose <color=#f29e38ff>Weaknesses reach <unbreak>#3[i]</unbreak></color> get inflicted with \"Qualitative Disclosure.\" Anaxa deals increased DMG to targets in the \"Qualitative Disclosure\" state. After Anaxa uses Basic ATK or Skill on them, unleashes 1 additional instance of <color=#f29e38ff>Skill without consumption</color>.",
+      "full_description": "Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for <unbreak>#2[i]</unbreak> turn(s), with priority to the Weakness Type that the target doesn't already possess.\\nWhile Anaxa is on the field, inflicts the \"Qualitative Disclosure\" state on enemy targets that have at least <unbreak>#3[i]</unbreak> different Types of Weaknesses. Anaxa deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> increased DMG to targets afflicted with the \"Qualitative Disclosure\" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.",
+      "params": [
+        [
+          0.18,
+          3,
+          5
+        ],
+        [
+          0.192,
+          3,
+          5
+        ],
+        [
+          0.204,
+          3,
+          5
+        ],
+        [
+          0.216,
+          3,
+          5
+        ],
+        [
+          0.228,
+          3,
+          5
+        ],
+        [
+          0.24,
+          3,
+          5
+        ],
+        [
+          0.255,
+          3,
+          5
+        ],
+        [
+          0.27,
+          3,
+          5
+        ],
+        [
+          0.285,
+          3,
+          5
+        ],
+        [
+          0.3,
+          3,
+          5
+        ],
+        [
+          0.312,
+          3,
+          5
+        ],
+        [
+          0.324,
+          3,
+          5
+        ],
+        [
+          0.336,
+          3,
+          5
+        ],
+        [
+          0.348,
+          3,
+          5
+        ],
+        [
+          0.36,
+          3,
+          5
+        ]
+      ]
+    },
+    "140507": {
+      "id": "140507",
+      "name": "Prism of the Pupil",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "Inflicts the Terrified state on the surrounding enemies. Attacking a Terrified enemy will always be considered as entering battle via Weakness, and applies 1 <color=#f29e38ff>Weakness of the attacker's Type</color> to all enemies.",
+      "full_description": "After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for <unbreak>#1[i]</unbreak> second(s). When allies enter battle via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [
+          10,
+          3
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1405101": {
+      "id": "1405101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1405202"
+      ],
+      "params": [
+        10,
+        30
+      ]
+    },
+    "1405102": {
+      "id": "1405102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1405205"
+      ],
+      "params": [
+        1.4,
+        0.5
+      ]
+    },
+    "1405103": {
+      "id": "1405103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1405208",
+        "1405209"
+      ],
+      "params": [
+        0.04
+      ]
+    }
+  },
+  "minor_traces": {
+    "1405201": {
+      "id": "1405201",
+      "stat": "WindAddedRatio",
+      "value": 0.032,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1405202": {
+      "id": "1405202",
+      "stat": "CriticalChanceBase",
+      "value": 0.026999999,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1405101
+      ],
+      "children": [
+        "1405203",
+        "1405204"
+      ]
+    },
+    "1405203": {
+      "id": "1405203",
+      "stat": "WindAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1405202
+      ],
+      "children": []
+    },
+    "1405204": {
+      "id": "1405204",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1405202
+      ],
+      "children": []
+    },
+    "1405205": {
+      "id": "1405205",
+      "stat": "WindAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1405102
+      ],
+      "children": [
+        "1405206",
+        "1405207"
+      ]
+    },
+    "1405206": {
+      "id": "1405206",
+      "stat": "CriticalChanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1405205
+      ],
+      "children": []
+    },
+    "1405207": {
+      "id": "1405207",
+      "stat": "WindAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1405205
+      ],
+      "children": []
+    },
+    "1405208": {
+      "id": "1405208",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1405103
+      ],
+      "children": []
+    },
+    "1405209": {
+      "id": "1405209",
+      "stat": "CriticalChanceBase",
+      "value": 0.053,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1405103
+      ],
+      "children": []
+    },
+    "1405210": {
+      "id": "1405210",
+      "stat": "WindAddedRatio",
+      "value": 0.064,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    }
+  },
+  "max_energy": 140,
+  "stats": {
+    "1/20": {
+      "hp": 132.0,
+      "atk": 102.96,
+      "defense": 75.9,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 138.6,
+      "atk": 108.10799999999999,
+      "defense": 79.69500000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 145.2,
+      "atk": 113.256,
+      "defense": 83.49000000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 151.8,
+      "atk": 118.404,
+      "defense": 87.28500000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 158.4,
+      "atk": 123.55199999999999,
+      "defense": 91.08000000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 165.0,
+      "atk": 128.7,
+      "defense": 94.875,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 171.6,
+      "atk": 133.84799999999998,
+      "defense": 98.67,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 178.2,
+      "atk": 138.99599999999998,
+      "defense": 102.465,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 184.8,
+      "atk": 144.144,
+      "defense": 106.26,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 191.4,
+      "atk": 149.29199999999997,
+      "defense": 110.055,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 198.0,
+      "atk": 154.44,
+      "defense": 113.85000000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 204.6,
+      "atk": 159.588,
+      "defense": 117.64500000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 211.2,
+      "atk": 164.736,
+      "defense": 121.44,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 217.8,
+      "atk": 169.884,
+      "defense": 125.23500000000001,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 224.39999999999998,
+      "atk": 175.03199999999998,
+      "defense": 129.03,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 231.0,
+      "atk": 180.18,
+      "defense": 132.825,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 237.6,
+      "atk": 185.32799999999997,
+      "defense": 136.62,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 244.2,
+      "atk": 190.476,
+      "defense": 140.41500000000002,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 250.8,
+      "atk": 195.62399999999997,
+      "defense": 144.21,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 257.4,
+      "atk": 200.772,
+      "defense": 148.005,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 310.2,
+      "atk": 241.95600000000002,
+      "defense": 178.365,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 316.8,
+      "atk": 247.10399999999998,
+      "defense": 182.16000000000003,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 323.4,
+      "atk": 252.252,
+      "defense": 185.95499999999998,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 330.0,
+      "atk": 257.4,
+      "defense": 189.75,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 336.6,
+      "atk": 262.548,
+      "defense": 193.54500000000002,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 343.2,
+      "atk": 267.696,
+      "defense": 197.34,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 349.8,
+      "atk": 272.844,
+      "defense": 201.135,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 356.4,
+      "atk": 277.99199999999996,
+      "defense": 204.93,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 363.0,
+      "atk": 283.14,
+      "defense": 208.72500000000002,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 369.6,
+      "atk": 288.288,
+      "defense": 212.51999999999998,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 376.2,
+      "atk": 293.43600000000004,
+      "defense": 216.315,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 429.0,
+      "atk": 334.62,
+      "defense": 246.675,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 435.6,
+      "atk": 339.76800000000003,
+      "defense": 250.47,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 442.2,
+      "atk": 344.916,
+      "defense": 254.265,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 448.79999999999995,
+      "atk": 350.06399999999996,
+      "defense": 258.06,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 455.4,
+      "atk": 355.212,
+      "defense": 261.855,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 462.0,
+      "atk": 360.36,
+      "defense": 265.65,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 468.6,
+      "atk": 365.508,
+      "defense": 269.445,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 475.2,
+      "atk": 370.65599999999995,
+      "defense": 273.24,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 481.79999999999995,
+      "atk": 375.804,
+      "defense": 277.03499999999997,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 488.4,
+      "atk": 380.952,
+      "defense": 280.83000000000004,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 495.0,
+      "atk": 386.1,
+      "defense": 284.625,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 547.8,
+      "atk": 427.284,
+      "defense": 314.985,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 554.4,
+      "atk": 432.432,
+      "defense": 318.78,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 561.0,
+      "atk": 437.58,
+      "defense": 322.575,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 567.5999999999999,
+      "atk": 442.72799999999995,
+      "defense": 326.37,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 574.2,
+      "atk": 447.876,
+      "defense": 330.16499999999996,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 580.8,
+      "atk": 453.024,
+      "defense": 333.96,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 587.4,
+      "atk": 458.172,
+      "defense": 337.755,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 594.0,
+      "atk": 463.32,
+      "defense": 341.54999999999995,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 600.5999999999999,
+      "atk": 468.46799999999996,
+      "defense": 345.345,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 607.1999999999999,
+      "atk": 473.616,
+      "defense": 349.14,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 613.8,
+      "atk": 478.764,
+      "defense": 352.93499999999995,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 666.5999999999999,
+      "atk": 519.948,
+      "defense": 383.29499999999996,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 673.2,
+      "atk": 525.096,
+      "defense": 387.09000000000003,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 679.8,
+      "atk": 530.244,
+      "defense": 390.885,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 686.4,
+      "atk": 535.392,
+      "defense": 394.68,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 693.0,
+      "atk": 540.54,
+      "defense": 398.475,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 699.5999999999999,
+      "atk": 545.688,
+      "defense": 402.27,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 706.2,
+      "atk": 550.836,
+      "defense": 406.065,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 712.8,
+      "atk": 555.984,
+      "defense": 409.86,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 719.4,
+      "atk": 561.1320000000001,
+      "defense": 413.655,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 726.0,
+      "atk": 566.28,
+      "defense": 417.45,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 732.5999999999999,
+      "atk": 571.428,
+      "defense": 421.245,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 785.4,
+      "atk": 612.612,
+      "defense": 451.605,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 792.0,
+      "atk": 617.76,
+      "defense": 455.4,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 798.5999999999999,
+      "atk": 622.9079999999999,
+      "defense": 459.195,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 805.2,
+      "atk": 628.056,
+      "defense": 462.99,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 811.8,
+      "atk": 633.204,
+      "defense": 466.78499999999997,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 818.4,
+      "atk": 638.352,
+      "defense": 470.58,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 825.0,
+      "atk": 643.5,
+      "defense": 474.375,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 831.5999999999999,
+      "atk": 648.6479999999999,
+      "defense": 478.16999999999996,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 838.2,
+      "atk": 653.796,
+      "defense": 481.965,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 844.8,
+      "atk": 658.944,
+      "defense": 485.76,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 851.4,
+      "atk": 664.092,
+      "defense": 489.555,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 904.2,
+      "atk": 705.2760000000001,
+      "defense": 519.915,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 910.8,
+      "atk": 710.424,
+      "defense": 523.71,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 917.4,
+      "atk": 715.572,
+      "defense": 527.505,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 924.0,
+      "atk": 720.72,
+      "defense": 531.3,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 930.5999999999999,
+      "atk": 725.8679999999999,
+      "defense": 535.095,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 937.2,
+      "atk": 731.0160000000001,
+      "defense": 538.89,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 943.8,
+      "atk": 736.164,
+      "defense": 542.685,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 950.4,
+      "atk": 741.312,
+      "defense": 546.48,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 957.0,
+      "atk": 746.46,
+      "defense": 550.275,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 963.5999999999999,
+      "atk": 751.608,
+      "defense": 554.0699999999999,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 970.2,
+      "atk": 756.756,
+      "defense": 557.865,
+      "spd": 97,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

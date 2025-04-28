@@ -1,0 +1,1126 @@
+{
+  "id": "1008",
+  "name": "Arlan",
+  "rarity": 4,
+  "path": "Destruction",
+  "damage_type": "Thunder",
+  "skills": {
+    "100801": {
+      "id": "100801",
+      "name": "Lightning Rush",
+      "max_level": 10,
+      "damage_type": "Thunder",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Lightning DMG to a single enemy.",
+      "full_description": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to a single enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "100802": {
+      "id": "100802",
+      "name": "Shackle Breaker",
+      "max_level": 15,
+      "damage_type": "Thunder",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Consumes a portion of HP to deal Lightning DMG to a single enemy.",
+      "full_description": "Consumes Arlan's HP equal to <unbreak>#1[i]%</unbreak> of his Max HP to deal Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+      "params": [
+        [
+          0.15,
+          1.2
+        ],
+        [
+          0.15,
+          1.32
+        ],
+        [
+          0.15,
+          1.44
+        ],
+        [
+          0.15,
+          1.56
+        ],
+        [
+          0.15,
+          1.68
+        ],
+        [
+          0.15,
+          1.8
+        ],
+        [
+          0.15,
+          1.95
+        ],
+        [
+          0.15,
+          2.1
+        ],
+        [
+          0.15,
+          2.25
+        ],
+        [
+          0.15,
+          2.4
+        ],
+        [
+          0.15,
+          2.52
+        ],
+        [
+          0.15,
+          2.64
+        ],
+        [
+          0.15,
+          2.76
+        ],
+        [
+          0.15,
+          2.88
+        ],
+        [
+          0.15,
+          3
+        ]
+      ]
+    },
+    "100803": {
+      "id": "100803",
+      "name": "Frenzied Punishment",
+      "max_level": 15,
+      "damage_type": "Thunder",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "Deals massive Lightning DMG to a single enemy and Lightning DMG to enemies adjacent to it.",
+      "full_description": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to a single enemy and Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to enemies adjacent to it.",
+      "params": [
+        [
+          1.92,
+          0.96
+        ],
+        [
+          2.048,
+          1.024
+        ],
+        [
+          2.176,
+          1.088
+        ],
+        [
+          2.304,
+          1.152
+        ],
+        [
+          2.432,
+          1.216
+        ],
+        [
+          2.56,
+          1.28
+        ],
+        [
+          2.72,
+          1.36
+        ],
+        [
+          2.88,
+          1.44
+        ],
+        [
+          3.04,
+          1.52
+        ],
+        [
+          3.2,
+          1.6
+        ],
+        [
+          3.328,
+          1.664
+        ],
+        [
+          3.456,
+          1.728
+        ],
+        [
+          3.584,
+          1.792
+        ],
+        [
+          3.712,
+          1.856
+        ],
+        [
+          3.84,
+          1.92
+        ]
+      ]
+    },
+    "100804": {
+      "id": "100804",
+      "name": "Pain and Anger",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "Gain DMG bonus <color=#f29e38ff>based on</color> <color=#f29e38ff>currently missing HP percentage</color>.",
+      "full_description": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> DMG dealt by Arlan.",
+      "params": [
+        [
+          0.36
+        ],
+        [
+          0.396
+        ],
+        [
+          0.432
+        ],
+        [
+          0.468
+        ],
+        [
+          0.504
+        ],
+        [
+          0.54
+        ],
+        [
+          0.585
+        ],
+        [
+          0.63
+        ],
+        [
+          0.675
+        ],
+        [
+          0.72
+        ],
+        [
+          0.756
+        ],
+        [
+          0.792
+        ],
+        [
+          0.828
+        ],
+        [
+          0.864
+        ],
+        [
+          0.9
+        ]
+      ]
+    },
+    "100807": {
+      "id": "100807",
+      "name": "Swift Harvest",
+      "max_level": 1,
+      "damage_type": "Thunder",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "MazeAttack",
+      "effect_text": "MazeAttack",
+      "simple_description": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
+      "full_description": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to <unbreak>#1[i]%</unbreak> of Arlan's ATK to all enemies.",
+      "params": [
+        [
+          0.8
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1008101": {
+      "id": "1008101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1008202"
+      ],
+      "params": [
+        0.3,
+        0.2
+      ]
+    },
+    "1008102": {
+      "id": "1008102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1008205"
+      ],
+      "params": [
+        0.5
+      ]
+    },
+    "1008103": {
+      "id": "1008103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1008208"
+      ],
+      "params": [
+        0.5
+      ]
+    }
+  },
+  "minor_traces": {
+    "1008201": {
+      "id": "1008201",
+      "stat": "AttackAddedRatio",
+      "value": 0.04,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1008202": {
+      "id": "1008202",
+      "stat": "StatusResistanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1008101
+      ],
+      "children": [
+        "1008203"
+      ]
+    },
+    "1008203": {
+      "id": "1008203",
+      "stat": "AttackAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1008202
+      ],
+      "children": [
+        "1008204"
+      ]
+    },
+    "1008204": {
+      "id": "1008204",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1008203
+      ],
+      "children": []
+    },
+    "1008205": {
+      "id": "1008205",
+      "stat": "AttackAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1008102
+      ],
+      "children": [
+        "1008206"
+      ]
+    },
+    "1008206": {
+      "id": "1008206",
+      "stat": "StatusResistanceBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1008205
+      ],
+      "children": [
+        "1008207"
+      ]
+    },
+    "1008207": {
+      "id": "1008207",
+      "stat": "AttackAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1008206
+      ],
+      "children": []
+    },
+    "1008208": {
+      "id": "1008208",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1008103
+      ],
+      "children": [
+        "1008209",
+        "1008210"
+      ]
+    },
+    "1008209": {
+      "id": "1008209",
+      "stat": "StatusResistanceBase",
+      "value": 0.08,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1008208
+      ],
+      "children": []
+    },
+    "1008210": {
+      "id": "1008210",
+      "stat": "AttackAddedRatio",
+      "value": 0.08,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1008208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 110,
+  "stats": {
+    "1/20": {
+      "hp": 163.2,
+      "atk": 81.6,
+      "defense": 45.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 171.35999999999999,
+      "atk": 85.67999999999999,
+      "defense": 47.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 179.51999999999998,
+      "atk": 89.75999999999999,
+      "defense": 49.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 187.67999999999998,
+      "atk": 93.83999999999999,
+      "defense": 51.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 195.83999999999997,
+      "atk": 97.91999999999999,
+      "defense": 54.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 204.0,
+      "atk": 102.0,
+      "defense": 56.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 212.16,
+      "atk": 106.08,
+      "defense": 58.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 220.32,
+      "atk": 110.16,
+      "defense": 60.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 228.48,
+      "atk": 114.24,
+      "defense": 63.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 236.64,
+      "atk": 118.32,
+      "defense": 65.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 244.79999999999998,
+      "atk": 122.39999999999999,
+      "defense": 67.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 252.95999999999998,
+      "atk": 126.47999999999999,
+      "defense": 69.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 261.12,
+      "atk": 130.56,
+      "defense": 72.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 269.28,
+      "atk": 134.64,
+      "defense": 74.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 277.44,
+      "atk": 138.72,
+      "defense": 76.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 285.6,
+      "atk": 142.8,
+      "defense": 78.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 293.76,
+      "atk": 146.88,
+      "defense": 81.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 301.91999999999996,
+      "atk": 150.95999999999998,
+      "defense": 83.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 310.08,
+      "atk": 155.04,
+      "defense": 85.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 318.24,
+      "atk": 159.12,
+      "defense": 87.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 383.52,
+      "atk": 191.76,
+      "defense": 105.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 391.67999999999995,
+      "atk": 195.83999999999997,
+      "defense": 108.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 399.84000000000003,
+      "atk": 199.92000000000002,
+      "defense": 110.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 408.0,
+      "atk": 204.0,
+      "defense": 112.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 416.15999999999997,
+      "atk": 208.07999999999998,
+      "defense": 114.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 424.32,
+      "atk": 212.16,
+      "defense": 117.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 432.48,
+      "atk": 216.24,
+      "defense": 119.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 440.64,
+      "atk": 220.32,
+      "defense": 121.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 448.79999999999995,
+      "atk": 224.39999999999998,
+      "defense": 123.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 456.96000000000004,
+      "atk": 228.48000000000002,
+      "defense": 126.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 465.12,
+      "atk": 232.56,
+      "defense": 128.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 530.4,
+      "atk": 265.2,
+      "defense": 146.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 538.56,
+      "atk": 269.28,
+      "defense": 148.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 546.72,
+      "atk": 273.36,
+      "defense": 150.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 554.88,
+      "atk": 277.44,
+      "defense": 153.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 563.04,
+      "atk": 281.52,
+      "defense": 155.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 571.2,
+      "atk": 285.6,
+      "defense": 157.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 579.36,
+      "atk": 289.68,
+      "defense": 159.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 587.52,
+      "atk": 293.76,
+      "defense": 162.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 595.6800000000001,
+      "atk": 297.84000000000003,
+      "defense": 164.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 603.8399999999999,
+      "atk": 301.91999999999996,
+      "defense": 166.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 612.0,
+      "atk": 306.0,
+      "defense": 168.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 677.28,
+      "atk": 338.64,
+      "defense": 186.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 685.44,
+      "atk": 342.72,
+      "defense": 189.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 693.6,
+      "atk": 346.8,
+      "defense": 191.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 701.76,
+      "atk": 350.88,
+      "defense": 193.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 709.9200000000001,
+      "atk": 354.96000000000004,
+      "defense": 195.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 718.08,
+      "atk": 359.04,
+      "defense": 198.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 726.24,
+      "atk": 363.12,
+      "defense": 200.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 734.4000000000001,
+      "atk": 367.20000000000005,
+      "defense": 202.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 742.56,
+      "atk": 371.28,
+      "defense": 204.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 750.72,
+      "atk": 375.36,
+      "defense": 207.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 758.8800000000001,
+      "atk": 379.44000000000005,
+      "defense": 209.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 824.1600000000001,
+      "atk": 412.08000000000004,
+      "defense": 227.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 832.3199999999999,
+      "atk": 416.15999999999997,
+      "defense": 229.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 840.48,
+      "atk": 420.24,
+      "defense": 231.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 848.64,
+      "atk": 424.32,
+      "defense": 234.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 856.8,
+      "atk": 428.4,
+      "defense": 236.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 864.96,
+      "atk": 432.48,
+      "defense": 238.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 873.12,
+      "atk": 436.56,
+      "defense": 240.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 881.28,
+      "atk": 440.64,
+      "defense": 243.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 889.44,
+      "atk": 444.72,
+      "defense": 245.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 897.6,
+      "atk": 448.8,
+      "defense": 247.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 905.76,
+      "atk": 452.88,
+      "defense": 249.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 971.04,
+      "atk": 485.52,
+      "defense": 267.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 979.2,
+      "atk": 489.6,
+      "defense": 270.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 987.36,
+      "atk": 493.68,
+      "defense": 272.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 995.52,
+      "atk": 497.76,
+      "defense": 274.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 1003.6800000000001,
+      "atk": 501.84000000000003,
+      "defense": 276.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 1011.84,
+      "atk": 505.92,
+      "defense": 279.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 1020.0,
+      "atk": 510.0,
+      "defense": 281.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 1028.16,
+      "atk": 514.08,
+      "defense": 283.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 1036.3200000000002,
+      "atk": 518.1600000000001,
+      "defense": 285.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 1044.48,
+      "atk": 522.24,
+      "defense": 288.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 1052.6399999999999,
+      "atk": 526.3199999999999,
+      "defense": 290.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1117.92,
+      "atk": 558.96,
+      "defense": 308.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1126.08,
+      "atk": 563.04,
+      "defense": 310.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1134.24,
+      "atk": 567.12,
+      "defense": 312.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1142.4,
+      "atk": 571.2,
+      "defense": 315.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1150.56,
+      "atk": 575.28,
+      "defense": 317.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1158.72,
+      "atk": 579.36,
+      "defense": 319.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1166.88,
+      "atk": 583.44,
+      "defense": 321.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1175.04,
+      "atk": 587.52,
+      "defense": 324.0,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1183.2,
+      "atk": 591.6,
+      "defense": 326.25,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1191.3600000000001,
+      "atk": 595.6800000000001,
+      "defense": 328.5,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1199.52,
+      "atk": 599.76,
+      "defense": 330.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

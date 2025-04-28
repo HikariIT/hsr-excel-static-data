@@ -1,0 +1,1193 @@
+{
+  "id": "1225",
+  "name": "Fugue",
+  "rarity": 5,
+  "path": "Nihility",
+  "damage_type": "Fire",
+  "skills": {
+    "122501": {
+      "id": "122501",
+      "name": "Radiant Streak",
+      "max_level": 10,
+      "damage_type": "Fire",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Fire DMG to one enemy.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Fugue's ATK to one designated enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "122502": {
+      "id": "122502",
+      "name": "Virtue Beckons Bliss",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "Grants one ally \"Foxian Prayer\", which <color=#f29e38ff>increases Break Effect</color>, and <color=#f29e38ff>enables to reduce Toughness when attacking enemies that don't have the corresponding Weakness Type</color>.\\nMakes this unit enter the \"Torrid Scorch\" state, enhancing Basic ATK. When ally units with \"Foxian Prayer\" attack, Fugue has a high chance to reduce the enemy target's DEF.",
+      "full_description": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for <unbreak>#1[i]</unbreak> turn(s). The duration reduces by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to <unbreak>#6[i]%</unbreak> of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a <unbreak>#3[i]%</unbreak> <u>base chance</u> to reduce the attacked enemy target's DEF by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+      "params": [
+        [
+          3,
+          0.15,
+          1,
+          0.08,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.165,
+          1,
+          0.09,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.18,
+          1,
+          0.1,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.195,
+          1,
+          0.11,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.21,
+          1,
+          0.12,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.225,
+          1,
+          0.13,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.24375,
+          1,
+          0.1425,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.2625,
+          1,
+          0.155,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.28125,
+          1,
+          0.1675,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.3,
+          1,
+          0.18,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.315,
+          1,
+          0.19,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.33,
+          1,
+          0.2,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.345,
+          1,
+          0.21,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.36,
+          1,
+          0.22,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.375,
+          1,
+          0.23,
+          2,
+          0.5
+        ]
+      ]
+    },
+    "122503": {
+      "id": "122503",
+      "name": "Solar Splendor Shines Upon All",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "AoEAttack",
+      "effect_text": "AoEAttack",
+      "simple_description": "Deals Fire DMG to all enemies. This attack <color=#f29e38ff>ignores Weakness Type</color> to reduce all enemies' Toughness.",
+      "full_description": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.",
+      "params": [
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ],
+        [
+          1.5
+        ],
+        [
+          1.625
+        ],
+        [
+          1.75
+        ],
+        [
+          1.875
+        ],
+        [
+          2
+        ],
+        [
+          2.1
+        ],
+        [
+          2.2
+        ],
+        [
+          2.3
+        ],
+        [
+          2.4
+        ],
+        [
+          2.5
+        ]
+      ]
+    },
+    "122504": {
+      "id": "122504",
+      "name": "Fortune Follows Where Virtue Spreads",
+      "max_level": 15,
+      "damage_type": "Fire",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "While Fugue is on the field, enemy targets will get <color=#f29e38ff>additionally afflicted with \"Cloudflame Luster.\"</color> When \"Cloudflame Luster\" is reduced to 0, the enemy will <color=#f29e38ff>take Weakness Break DMG again</color>. After allies attack <u>Weakness Broken</u> enemy targets, additionally deals <color=#f29e38ff><u>Super Break DMG</u></color>.",
+      "full_description": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to <unbreak>#2[i]%</unbreak> of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack <u>Weakness Broken</u> enemy targets, converts the Toughness Reduction of this attack into 1 instance of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> <u>Super Break DMG</u>.",
+      "params": [
+        [
+          0.5,
+          0.4
+        ],
+        [
+          0.55,
+          0.4
+        ],
+        [
+          0.6,
+          0.4
+        ],
+        [
+          0.65,
+          0.4
+        ],
+        [
+          0.7,
+          0.4
+        ],
+        [
+          0.75,
+          0.4
+        ],
+        [
+          0.8125,
+          0.4
+        ],
+        [
+          0.875,
+          0.4
+        ],
+        [
+          0.9375,
+          0.4
+        ],
+        [
+          1,
+          0.4
+        ],
+        [
+          1.05,
+          0.4
+        ],
+        [
+          1.1,
+          0.4
+        ],
+        [
+          1.15,
+          0.4
+        ],
+        [
+          1.2,
+          0.4
+        ],
+        [
+          1.25,
+          0.4
+        ]
+      ]
+    },
+    "122507": {
+      "id": "122507",
+      "name": "Percipient Shine",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Impair",
+      "effect_text": "Impair",
+      "simple_description": "Inflicts Daze on enemies within a certain area. After entering battle via attacking Dazed enemies, Fugue's <u>action advances</u>, with a high chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill.",
+      "full_description": "After using Technique, inflicts Daze on enemies within a certain area, lasting for <unbreak>#1[i]</unbreak> second(s). While Dazed, enemies will not actively attack ally targets.\\nAfter entering battle via actively attacking Dazed enemies, Fugue's <u>action advances</u> by <unbreak>#4[i]%</unbreak>, with a <unbreak>#2[i]%</unbreak> <u>base chance</u> to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [
+          10,
+          1,
+          2,
+          0.4
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1225101": {
+      "id": "1225101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1225202"
+      ],
+      "params": [
+        0.15
+      ]
+    },
+    "1225102": {
+      "id": "1225102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1225205"
+      ],
+      "params": [
+        0.3,
+        1
+      ]
+    },
+    "1225103": {
+      "id": "1225103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1225208",
+        "1225209"
+      ],
+      "params": [
+        0.06,
+        2,
+        2,
+        2.2,
+        0.12
+      ]
+    }
+  },
+  "minor_traces": {
+    "1225201": {
+      "id": "1225201",
+      "stat": "SpeedDelta",
+      "value": 2,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": [
+        "1225210"
+      ]
+    },
+    "1225202": {
+      "id": "1225202",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.053,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1225101
+      ],
+      "children": [
+        "1225203"
+      ]
+    },
+    "1225203": {
+      "id": "1225203",
+      "stat": "SpeedDelta",
+      "value": 2,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1225202
+      ],
+      "children": [
+        "1225204"
+      ]
+    },
+    "1225204": {
+      "id": "1225204",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1225203
+      ],
+      "children": []
+    },
+    "1225205": {
+      "id": "1225205",
+      "stat": "SpeedDelta",
+      "value": 3,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1225102
+      ],
+      "children": [
+        "1225206"
+      ]
+    },
+    "1225206": {
+      "id": "1225206",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1225205
+      ],
+      "children": [
+        "1225207"
+      ]
+    },
+    "1225207": {
+      "id": "1225207",
+      "stat": "SpeedDelta",
+      "value": 3,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1225206
+      ],
+      "children": []
+    },
+    "1225208": {
+      "id": "1225208",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1225103
+      ],
+      "children": []
+    },
+    "1225209": {
+      "id": "1225209",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.107,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1225103
+      ],
+      "children": []
+    },
+    "1225210": {
+      "id": "1225210",
+      "stat": "SpeedDelta",
+      "value": 4,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1225201
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 130,
+  "stats": {
+    "1/20": {
+      "hp": 153.12,
+      "atk": 79.2,
+      "defense": 75.9,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 160.776,
+      "atk": 83.16,
+      "defense": 79.69500000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 168.43200000000002,
+      "atk": 87.12,
+      "defense": 83.49000000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 176.088,
+      "atk": 91.08,
+      "defense": 87.28500000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 183.744,
+      "atk": 95.04,
+      "defense": 91.08000000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 191.4,
+      "atk": 99.0,
+      "defense": 94.875,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 199.056,
+      "atk": 102.96000000000001,
+      "defense": 98.67,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 206.712,
+      "atk": 106.92,
+      "defense": 102.465,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 214.368,
+      "atk": 110.88,
+      "defense": 106.26,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 222.024,
+      "atk": 114.84,
+      "defense": 110.055,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 229.68,
+      "atk": 118.80000000000001,
+      "defense": 113.85000000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 237.336,
+      "atk": 122.76,
+      "defense": 117.64500000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 244.99200000000002,
+      "atk": 126.72,
+      "defense": 121.44,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 252.648,
+      "atk": 130.68,
+      "defense": 125.23500000000001,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 260.304,
+      "atk": 134.64,
+      "defense": 129.03,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 267.96,
+      "atk": 138.6,
+      "defense": 132.825,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 275.616,
+      "atk": 142.56,
+      "defense": 136.62,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 283.272,
+      "atk": 146.51999999999998,
+      "defense": 140.41500000000002,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 290.928,
+      "atk": 150.48000000000002,
+      "defense": 144.21,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 298.584,
+      "atk": 154.44,
+      "defense": 148.005,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 359.832,
+      "atk": 186.12,
+      "defense": 178.365,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 367.488,
+      "atk": 190.07999999999998,
+      "defense": 182.16000000000003,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 375.144,
+      "atk": 194.04,
+      "defense": 185.95499999999998,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 382.79999999999995,
+      "atk": 198.0,
+      "defense": 189.75,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 390.456,
+      "atk": 201.95999999999998,
+      "defense": 193.54500000000002,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 398.11199999999997,
+      "atk": 205.92,
+      "defense": 197.34,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 405.76800000000003,
+      "atk": 209.88,
+      "defense": 201.135,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 413.424,
+      "atk": 213.83999999999997,
+      "defense": 204.93,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 421.08,
+      "atk": 217.8,
+      "defense": 208.72500000000002,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 428.736,
+      "atk": 221.76,
+      "defense": 212.51999999999998,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 436.392,
+      "atk": 225.72,
+      "defense": 216.315,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 497.64,
+      "atk": 257.4,
+      "defense": 246.675,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 505.29599999999994,
+      "atk": 261.36,
+      "defense": 250.47,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 512.952,
+      "atk": 265.32,
+      "defense": 254.265,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 520.608,
+      "atk": 269.28,
+      "defense": 258.06,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 528.264,
+      "atk": 273.24,
+      "defense": 261.855,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 535.92,
+      "atk": 277.2,
+      "defense": 265.65,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 543.576,
+      "atk": 281.15999999999997,
+      "defense": 269.445,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 551.232,
+      "atk": 285.12,
+      "defense": 273.24,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 558.8879999999999,
+      "atk": 289.08000000000004,
+      "defense": 277.03499999999997,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 566.544,
+      "atk": 293.03999999999996,
+      "defense": 280.83000000000004,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 574.2,
+      "atk": 297.0,
+      "defense": 284.625,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 635.448,
+      "atk": 328.68,
+      "defense": 314.985,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 643.104,
+      "atk": 332.64,
+      "defense": 318.78,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 650.76,
+      "atk": 336.6,
+      "defense": 322.575,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 658.4159999999999,
+      "atk": 340.56,
+      "defense": 326.37,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 666.0719999999999,
+      "atk": 344.52,
+      "defense": 330.16499999999996,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 673.728,
+      "atk": 348.48,
+      "defense": 333.96,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 681.384,
+      "atk": 352.44,
+      "defense": 337.755,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 689.04,
+      "atk": 356.4,
+      "defense": 341.54999999999995,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 696.6959999999999,
+      "atk": 360.36,
+      "defense": 345.345,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 704.352,
+      "atk": 364.32,
+      "defense": 349.14,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 712.008,
+      "atk": 368.28,
+      "defense": 352.93499999999995,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 773.2560000000001,
+      "atk": 399.96,
+      "defense": 383.29499999999996,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 780.912,
+      "atk": 403.91999999999996,
+      "defense": 387.09000000000003,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 788.568,
+      "atk": 407.88,
+      "defense": 390.885,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 796.2239999999999,
+      "atk": 411.84,
+      "defense": 394.68,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 803.88,
+      "atk": 415.79999999999995,
+      "defense": 398.475,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 811.5360000000001,
+      "atk": 419.76,
+      "defense": 402.27,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 819.192,
+      "atk": 423.72,
+      "defense": 406.065,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 826.848,
+      "atk": 427.67999999999995,
+      "defense": 409.86,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 834.504,
+      "atk": 431.64,
+      "defense": 413.655,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 842.1600000000001,
+      "atk": 435.6,
+      "defense": 417.45,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 849.816,
+      "atk": 439.55999999999995,
+      "defense": 421.245,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 911.0640000000001,
+      "atk": 471.24,
+      "defense": 451.605,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 918.72,
+      "atk": 475.2,
+      "defense": 455.4,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 926.376,
+      "atk": 479.15999999999997,
+      "defense": 459.195,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 934.0319999999999,
+      "atk": 483.12,
+      "defense": 462.99,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 941.688,
+      "atk": 487.08,
+      "defense": 466.78499999999997,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 949.344,
+      "atk": 491.03999999999996,
+      "defense": 470.58,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 957.0,
+      "atk": 495.0,
+      "defense": 474.375,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 964.656,
+      "atk": 498.96000000000004,
+      "defense": 478.16999999999996,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 972.312,
+      "atk": 502.91999999999996,
+      "defense": 481.965,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 979.968,
+      "atk": 506.88,
+      "defense": 485.76,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 987.624,
+      "atk": 510.84000000000003,
+      "defense": 489.555,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1048.8719999999998,
+      "atk": 542.52,
+      "defense": 519.915,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1056.5279999999998,
+      "atk": 546.48,
+      "defense": 523.71,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1064.184,
+      "atk": 550.44,
+      "defense": 527.505,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1071.84,
+      "atk": 554.4,
+      "defense": 531.3,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1079.496,
+      "atk": 558.3599999999999,
+      "defense": 535.095,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1087.152,
+      "atk": 562.3199999999999,
+      "defense": 538.89,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1094.808,
+      "atk": 566.28,
+      "defense": 542.685,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1102.464,
+      "atk": 570.24,
+      "defense": 546.48,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1110.12,
+      "atk": 574.2,
+      "defense": 550.275,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1117.7759999999998,
+      "atk": 578.16,
+      "defense": 554.0699999999999,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1125.4319999999998,
+      "atk": 582.1199999999999,
+      "defense": 557.865,
+      "spd": 102,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

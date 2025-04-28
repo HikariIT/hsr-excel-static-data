@@ -1,0 +1,1256 @@
+{
+  "id": "1110",
+  "name": "Lynx",
+  "rarity": 4,
+  "path": "Abundance",
+  "damage_type": "Quantum",
+  "skills": {
+    "111001": {
+      "id": "111001",
+      "name": "Ice Crampon Technique",
+      "max_level": 10,
+      "damage_type": "Quantum",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Quantum DMG to a single enemy.",
+      "full_description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of this character's Max HP to a single enemy.",
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.3
+        ],
+        [
+          0.35
+        ],
+        [
+          0.4
+        ],
+        [
+          0.45
+        ],
+        [
+          0.5
+        ],
+        [
+          0.55
+        ],
+        [
+          0.6
+        ],
+        [
+          0.65
+        ],
+        [
+          0.7
+        ]
+      ]
+    },
+    "111002": {
+      "id": "111002",
+      "name": "Salted Camping Cans",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Restore",
+      "effect_text": "Restore",
+      "simple_description": "Applies \"Survival Response\" to a single ally, <color=#f29e38ff>increases their Max HP</color>, and restores their HP.",
+      "full_description": "Applies \"Survival Response\" to a single target ally and increases their Max HP by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for <unbreak>#3[i]</unbreak> turn(s).\\nRestores the target's HP by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
+      "params": [
+        [
+          0.05,
+          50,
+          2,
+          0.08,
+          80,
+          5
+        ],
+        [
+          0.052500002,
+          80,
+          2,
+          0.085,
+          128,
+          5
+        ],
+        [
+          0.055,
+          102.5,
+          2,
+          0.09,
+          164,
+          5
+        ],
+        [
+          0.0575,
+          125,
+          2,
+          0.095,
+          200,
+          5
+        ],
+        [
+          0.06,
+          140,
+          2,
+          0.1,
+          224,
+          5
+        ],
+        [
+          0.0625,
+          155,
+          2,
+          0.104,
+          248,
+          5
+        ],
+        [
+          0.065625,
+          166.25,
+          2,
+          0.108,
+          266,
+          5
+        ],
+        [
+          0.06875,
+          177.5,
+          2,
+          0.112,
+          284,
+          5
+        ],
+        [
+          0.071875,
+          188.75,
+          2,
+          0.116,
+          302,
+          5
+        ],
+        [
+          0.075,
+          200,
+          2,
+          0.12,
+          320,
+          5
+        ],
+        [
+          0.0775,
+          211.25,
+          2,
+          0.124,
+          338,
+          5
+        ],
+        [
+          0.08,
+          222.5,
+          2,
+          0.128,
+          356,
+          5
+        ],
+        [
+          0.0825,
+          233.75,
+          2,
+          0.132,
+          374,
+          5
+        ],
+        [
+          0.085,
+          245,
+          2,
+          0.13599999,
+          392,
+          5
+        ],
+        [
+          0.0875,
+          256.25,
+          2,
+          0.14,
+          410,
+          5
+        ]
+      ]
+    },
+    "111003": {
+      "id": "111003",
+      "name": "Snowfield <unbreak>First Aid</unbreak>",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Restore",
+      "effect_text": "Restore",
+      "simple_description": "Dispels <color=#f29e38ff>1 <u>debuff</u> from all allies</color> and restores their HP.",
+      "full_description": "Dispels <unbreak>#1[i]</unbreak> <u>debuff(s)</u> from all allies and immediately restores their respective HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color>.",
+      "params": [
+        [
+          1,
+          0.09,
+          90
+        ],
+        [
+          1,
+          0.095625,
+          144
+        ],
+        [
+          1,
+          0.10125,
+          184.5
+        ],
+        [
+          1,
+          0.106875,
+          225
+        ],
+        [
+          1,
+          0.1125,
+          252
+        ],
+        [
+          1,
+          0.117,
+          279
+        ],
+        [
+          1,
+          0.1215,
+          299.25
+        ],
+        [
+          1,
+          0.126,
+          319.5
+        ],
+        [
+          1,
+          0.1305,
+          339.75
+        ],
+        [
+          1,
+          0.135,
+          360
+        ],
+        [
+          1,
+          0.1395,
+          380.25
+        ],
+        [
+          1,
+          0.144,
+          400.5
+        ],
+        [
+          1,
+          0.1485,
+          420.75
+        ],
+        [
+          1,
+          0.153,
+          441
+        ],
+        [
+          1,
+          0.1575,
+          461.25
+        ]
+      ]
+    },
+    "111004": {
+      "id": "111004",
+      "name": "Outdoor Survival Experience",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Restore",
+      "effect_text": "Restore",
+      "simple_description": "When using Skill or Ultimate, applies <color=#f29e38ff>continuous healing</color> on the target ally. If the target has \"Survival Response,\" the continuous healing effect additionally increases.",
+      "full_description": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for <unbreak>#1[i]</unbreak> turn(s), restoring the target ally's HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color> at the start of each turn. If the target has \"Survival Response,\" the continuous healing effect additionally restores HP by an amount equal to <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
+      "params": [
+        [
+          2,
+          0.024,
+          24,
+          0.03,
+          30
+        ],
+        [
+          2,
+          0.0255,
+          38.4,
+          0.031875,
+          48
+        ],
+        [
+          2,
+          0.026999999,
+          49.2,
+          0.03375,
+          61.5
+        ],
+        [
+          2,
+          0.0285,
+          60,
+          0.035625,
+          75
+        ],
+        [
+          2,
+          0.03,
+          67.2,
+          0.0375,
+          84
+        ],
+        [
+          2,
+          0.0312,
+          74.4,
+          0.039,
+          93
+        ],
+        [
+          2,
+          0.0324,
+          79.8,
+          0.0405,
+          99.75
+        ],
+        [
+          2,
+          0.0336,
+          85.2,
+          0.042,
+          106.5
+        ],
+        [
+          2,
+          0.0348,
+          90.6,
+          0.0435,
+          113.25
+        ],
+        [
+          2,
+          0.036,
+          96,
+          0.044999998,
+          120
+        ],
+        [
+          2,
+          0.0372,
+          101.4,
+          0.0465,
+          126.75
+        ],
+        [
+          2,
+          0.038399998,
+          106.8,
+          0.048,
+          133.5
+        ],
+        [
+          2,
+          0.0396,
+          112.2,
+          0.0495,
+          140.25
+        ],
+        [
+          2,
+          0.0408,
+          117.6,
+          0.051,
+          147
+        ],
+        [
+          2,
+          0.042,
+          123,
+          0.052500002,
+          153.75
+        ]
+      ]
+    },
+    "111007": {
+      "id": "111007",
+      "name": "Chocolate Energy Bar",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Restore",
+      "effect_text": "Restore",
+      "simple_description": "After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.",
+      "full_description": "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [
+        [
+          2
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1110101": {
+      "id": "1110101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1110202"
+      ],
+      "params": [
+        2
+      ]
+    },
+    "1110102": {
+      "id": "1110102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1110205"
+      ],
+      "params": [
+        0.35
+      ]
+    },
+    "1110103": {
+      "id": "1110103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1110208",
+        "1110209"
+      ],
+      "params": [
+        1
+      ]
+    }
+  },
+  "minor_traces": {
+    "1110201": {
+      "id": "1110201",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1110202": {
+      "id": "1110202",
+      "stat": "DefenceAddedRatio",
+      "value": 0.05,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1110101
+      ],
+      "children": [
+        "1110203"
+      ]
+    },
+    "1110203": {
+      "id": "1110203",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1110202
+      ],
+      "children": [
+        "1110204"
+      ]
+    },
+    "1110204": {
+      "id": "1110204",
+      "stat": "StatusResistanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1110203
+      ],
+      "children": []
+    },
+    "1110205": {
+      "id": "1110205",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1110102
+      ],
+      "children": [
+        "1110206"
+      ]
+    },
+    "1110206": {
+      "id": "1110206",
+      "stat": "DefenceAddedRatio",
+      "value": 0.075,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1110205
+      ],
+      "children": [
+        "1110207"
+      ]
+    },
+    "1110207": {
+      "id": "1110207",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1110206
+      ],
+      "children": []
+    },
+    "1110208": {
+      "id": "1110208",
+      "stat": "StatusResistanceBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1110103
+      ],
+      "children": []
+    },
+    "1110209": {
+      "id": "1110209",
+      "stat": "DefenceAddedRatio",
+      "value": 0.1,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1110103
+      ],
+      "children": []
+    },
+    "1110210": {
+      "id": "1110210",
+      "stat": "HPAddedRatio",
+      "value": 0.08,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    }
+  },
+  "max_energy": 100,
+  "stats": {
+    "1/20": {
+      "hp": 144.0,
+      "atk": 67.2,
+      "defense": 75.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 151.2,
+      "atk": 70.56,
+      "defense": 78.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 158.4,
+      "atk": 73.92,
+      "defense": 82.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 165.6,
+      "atk": 77.28,
+      "defense": 86.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 172.8,
+      "atk": 80.64,
+      "defense": 90.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 180.0,
+      "atk": 84.0,
+      "defense": 93.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 187.2,
+      "atk": 87.36,
+      "defense": 97.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 194.4,
+      "atk": 90.72,
+      "defense": 101.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 201.6,
+      "atk": 94.08,
+      "defense": 105.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 208.8,
+      "atk": 97.44,
+      "defense": 108.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 216.0,
+      "atk": 100.80000000000001,
+      "defense": 112.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 223.2,
+      "atk": 104.16,
+      "defense": 116.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 230.4,
+      "atk": 107.52000000000001,
+      "defense": 120.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 237.60000000000002,
+      "atk": 110.88,
+      "defense": 123.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 244.8,
+      "atk": 114.24000000000001,
+      "defense": 127.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 252.0,
+      "atk": 117.6,
+      "defense": 131.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 259.2,
+      "atk": 120.96000000000001,
+      "defense": 135.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 266.4,
+      "atk": 124.32,
+      "defense": 138.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 273.6,
+      "atk": 127.68,
+      "defense": 142.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 280.8,
+      "atk": 131.04,
+      "defense": 146.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 338.4,
+      "atk": 157.92,
+      "defense": 176.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 345.6,
+      "atk": 161.28,
+      "defense": 180.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 352.8,
+      "atk": 164.64,
+      "defense": 183.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 360.0,
+      "atk": 168.0,
+      "defense": 187.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 367.2,
+      "atk": 171.36,
+      "defense": 191.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 374.4,
+      "atk": 174.72,
+      "defense": 195.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 381.6,
+      "atk": 178.07999999999998,
+      "defense": 198.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 388.8,
+      "atk": 181.44,
+      "defense": 202.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 396.0,
+      "atk": 184.8,
+      "defense": 206.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 403.2,
+      "atk": 188.16,
+      "defense": 210.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 410.4,
+      "atk": 191.51999999999998,
+      "defense": 213.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 468.0,
+      "atk": 218.39999999999998,
+      "defense": 243.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 475.2,
+      "atk": 221.76,
+      "defense": 247.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 482.4,
+      "atk": 225.12,
+      "defense": 251.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 489.6,
+      "atk": 228.48,
+      "defense": 255.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 496.79999999999995,
+      "atk": 231.83999999999997,
+      "defense": 258.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 504.0,
+      "atk": 235.2,
+      "defense": 262.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 511.2,
+      "atk": 238.56,
+      "defense": 266.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 518.4,
+      "atk": 241.92,
+      "defense": 270.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 525.6,
+      "atk": 245.27999999999997,
+      "defense": 273.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 532.8,
+      "atk": 248.64,
+      "defense": 277.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 540.0,
+      "atk": 252.0,
+      "defense": 281.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 597.6,
+      "atk": 278.88,
+      "defense": 311.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 604.8,
+      "atk": 282.24,
+      "defense": 315.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 612.0,
+      "atk": 285.6,
+      "defense": 318.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 619.2,
+      "atk": 288.96000000000004,
+      "defense": 322.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 626.4000000000001,
+      "atk": 292.32,
+      "defense": 326.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 633.6,
+      "atk": 295.68,
+      "defense": 330.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 640.8,
+      "atk": 299.03999999999996,
+      "defense": 333.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 648.0,
+      "atk": 302.4,
+      "defense": 337.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 655.2,
+      "atk": 305.76,
+      "defense": 341.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 662.4000000000001,
+      "atk": 309.12,
+      "defense": 345.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 669.6,
+      "atk": 312.48,
+      "defense": 348.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 727.2,
+      "atk": 339.36,
+      "defense": 378.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 734.4,
+      "atk": 342.72,
+      "defense": 382.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 741.5999999999999,
+      "atk": 346.08,
+      "defense": 386.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 748.8,
+      "atk": 349.44,
+      "defense": 390.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 756.0,
+      "atk": 352.79999999999995,
+      "defense": 393.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 763.2,
+      "atk": 356.15999999999997,
+      "defense": 397.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 770.4,
+      "atk": 359.52,
+      "defense": 401.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 777.5999999999999,
+      "atk": 362.88,
+      "defense": 405.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 784.8,
+      "atk": 366.24,
+      "defense": 408.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 792.0,
+      "atk": 369.6,
+      "defense": 412.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 799.2,
+      "atk": 372.96,
+      "defense": 416.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 856.8,
+      "atk": 399.84,
+      "defense": 446.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 864.0,
+      "atk": 403.2,
+      "defense": 450.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 871.2,
+      "atk": 406.55999999999995,
+      "defense": 453.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 878.4000000000001,
+      "atk": 409.91999999999996,
+      "defense": 457.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 885.6,
+      "atk": 413.28,
+      "defense": 461.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 892.8,
+      "atk": 416.64,
+      "defense": 465.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 900.0,
+      "atk": 420.0,
+      "defense": 468.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 907.2,
+      "atk": 423.36,
+      "defense": 472.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 914.4000000000001,
+      "atk": 426.72,
+      "defense": 476.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 921.6,
+      "atk": 430.08,
+      "defense": 480.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 928.8,
+      "atk": 433.44,
+      "defense": 483.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 986.4000000000001,
+      "atk": 460.32,
+      "defense": 513.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 993.6,
+      "atk": 463.67999999999995,
+      "defense": 517.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1000.8,
+      "atk": 467.03999999999996,
+      "defense": 521.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1008.0,
+      "atk": 470.4,
+      "defense": 525.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1015.2,
+      "atk": 473.76,
+      "defense": 528.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1022.4000000000001,
+      "atk": 477.12,
+      "defense": 532.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1029.6,
+      "atk": 480.48,
+      "defense": 536.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1036.8000000000002,
+      "atk": 483.84,
+      "defense": 540.0,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1044.0,
+      "atk": 487.19999999999993,
+      "defense": 543.75,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1051.2,
+      "atk": 490.55999999999995,
+      "defense": 547.5,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1058.4,
+      "atk": 493.91999999999996,
+      "defense": 551.25,
+      "spd": 100,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

@@ -1,0 +1,1144 @@
+{
+  "id": "8005",
+  "name": "{NICKNAME}",
+  "rarity": 5,
+  "path": "Harmony",
+  "damage_type": "Imaginary",
+  "skills": {
+    "800501": {
+      "id": "800501",
+      "name": "Swing Dance Etiquette",
+      "max_level": 10,
+      "damage_type": "Imaginary",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Imaginary DMG to a single enemy.",
+      "full_description": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the Trailblazer's ATK to a single target enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "800502": {
+      "id": "800502",
+      "name": "Halftime to Make It Rain",
+      "max_level": 15,
+      "damage_type": "Imaginary",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Bounce",
+      "effect_text": "Bounce",
+      "simple_description": "Deals minor Imaginary DMG to single enemy targets with 5 Bounces in total.",
+      "full_description": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the Trailblazer's ATK to a single target enemy and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the Trailblazer's ATK to a random enemy.",
+      "params": [
+        [
+          0.25,
+          2
+        ],
+        [
+          0.275,
+          2
+        ],
+        [
+          0.3,
+          2
+        ],
+        [
+          0.325,
+          2
+        ],
+        [
+          0.35,
+          2
+        ],
+        [
+          0.375,
+          2
+        ],
+        [
+          0.40625,
+          2
+        ],
+        [
+          0.4375,
+          2
+        ],
+        [
+          0.46875,
+          2
+        ],
+        [
+          0.5,
+          2
+        ],
+        [
+          0.525,
+          2
+        ],
+        [
+          0.55,
+          2
+        ],
+        [
+          0.575,
+          2
+        ],
+        [
+          0.6,
+          2
+        ],
+        [
+          0.625,
+          2
+        ]
+      ]
+    },
+    "800503": {
+      "id": "800503",
+      "name": "<unbreak>All-Out</unbreak> <unbreak>Footlight Parade</unbreak>",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "Grants all allies the Backup Dancer effect. Allies with Backup Dancer have their <color=#f29e38ff>Break Effect increased</color> and additionally deal <color=#f29e38ff><u>Super Break DMG</u></color> 1 time when they attack enemy targets that are <u>Weakness Broken</u>.",
+      "full_description": "Grants all allies the Backup Dancer effect, lasting for <unbreak>#1[i]</unbreak> turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. And when they attack enemy targets that are in the <u>Weakness Broken state</u>, the Toughness Reduction of the attack will be converted into 1 instance of <u>Super Break DMG</u>.",
+      "params": [
+        [
+          3,
+          1,
+          0.15
+        ],
+        [
+          3,
+          1,
+          0.165
+        ],
+        [
+          3,
+          1,
+          0.18
+        ],
+        [
+          3,
+          1,
+          0.195
+        ],
+        [
+          3,
+          1,
+          0.21
+        ],
+        [
+          3,
+          1,
+          0.225
+        ],
+        [
+          3,
+          1,
+          0.24375
+        ],
+        [
+          3,
+          1,
+          0.2625
+        ],
+        [
+          3,
+          1,
+          0.28125
+        ],
+        [
+          3,
+          1,
+          0.3
+        ],
+        [
+          3,
+          1,
+          0.315
+        ],
+        [
+          3,
+          1,
+          0.33
+        ],
+        [
+          3,
+          1,
+          0.345
+        ],
+        [
+          3,
+          1,
+          0.36
+        ],
+        [
+          3,
+          1,
+          0.375
+        ]
+      ]
+    },
+    "800504": {
+      "id": "800504",
+      "name": "Full-on Aerial Dance",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "The Trailblazer regenerates Energy when an enemy target's Weakness is Broken.",
+      "full_description": "The Trailblazer immediately regenerates <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> Energy when an enemy target's Weakness is Broken.",
+      "params": [
+        [
+          5
+        ],
+        [
+          5.5
+        ],
+        [
+          6
+        ],
+        [
+          6.5
+        ],
+        [
+          7
+        ],
+        [
+          7.5
+        ],
+        [
+          8.125
+        ],
+        [
+          8.75
+        ],
+        [
+          9.375
+        ],
+        [
+          10
+        ],
+        [
+          10.5
+        ],
+        [
+          11
+        ],
+        [
+          11.5
+        ],
+        [
+          12
+        ],
+        [
+          12.5
+        ]
+      ]
+    },
+    "800507": {
+      "id": "800507",
+      "name": "Now! I'm the Band!",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Support",
+      "effect_text": "Support",
+      "simple_description": "At the start of the next battle, increases all allies' Break Effect.",
+      "full_description": "After the Technique is used, at the start of the next battle, all allies' Break Effect increases by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [
+          0.3,
+          2
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "8005101": {
+      "id": "8005101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "8005202"
+      ],
+      "params": [
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6
+      ]
+    },
+    "8005102": {
+      "id": "8005102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "8005205"
+      ],
+      "params": [
+        1
+      ]
+    },
+    "8005103": {
+      "id": "8005103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "8005208"
+      ],
+      "params": [
+        0.3
+      ]
+    }
+  },
+  "minor_traces": {
+    "8005201": {
+      "id": "8005201",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.053,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": [
+        "8005204",
+        "8005207"
+      ]
+    },
+    "8005202": {
+      "id": "8005202",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.032,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        8005101
+      ],
+      "children": [
+        "8005203"
+      ]
+    },
+    "8005203": {
+      "id": "8005203",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.053,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        8005202
+      ],
+      "children": []
+    },
+    "8005204": {
+      "id": "8005204",
+      "stat": "StatusResistanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        8005201
+      ],
+      "children": []
+    },
+    "8005205": {
+      "id": "8005205",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        8005102
+      ],
+      "children": [
+        "8005206"
+      ]
+    },
+    "8005206": {
+      "id": "8005206",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.048,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        8005205
+      ],
+      "children": []
+    },
+    "8005207": {
+      "id": "8005207",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.08,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        8005201
+      ],
+      "children": []
+    },
+    "8005208": {
+      "id": "8005208",
+      "stat": "StatusResistanceBase",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        8005103
+      ],
+      "children": [
+        "8005209",
+        "8005210"
+      ]
+    },
+    "8005209": {
+      "id": "8005209",
+      "stat": "ImaginaryAddedRatio",
+      "value": 0.064,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        8005208
+      ],
+      "children": []
+    },
+    "8005210": {
+      "id": "8005210",
+      "stat": "BreakDamageAddedRatioBase",
+      "value": 0.107,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        8005208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 140,
+  "stats": {
+    "1/20": {
+      "hp": 147.84,
+      "atk": 60.72,
+      "defense": 92.4,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 155.232,
+      "atk": 63.756,
+      "defense": 97.02000000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 162.624,
+      "atk": 66.792,
+      "defense": 101.64,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 170.01600000000002,
+      "atk": 69.828,
+      "defense": 106.26,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 177.40800000000002,
+      "atk": 72.864,
+      "defense": 110.88000000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 184.8,
+      "atk": 75.9,
+      "defense": 115.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 192.192,
+      "atk": 78.936,
+      "defense": 120.12,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 199.584,
+      "atk": 81.972,
+      "defense": 124.74000000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 206.976,
+      "atk": 85.008,
+      "defense": 129.36,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 214.368,
+      "atk": 88.044,
+      "defense": 133.98000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 221.76,
+      "atk": 91.08,
+      "defense": 138.60000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 229.152,
+      "atk": 94.116,
+      "defense": 143.22,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 236.544,
+      "atk": 97.152,
+      "defense": 147.84,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 243.936,
+      "atk": 100.188,
+      "defense": 152.46,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 251.328,
+      "atk": 103.22399999999999,
+      "defense": 157.08,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 258.72,
+      "atk": 106.25999999999999,
+      "defense": 161.7,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 266.112,
+      "atk": 109.29599999999999,
+      "defense": 166.32,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 273.504,
+      "atk": 112.332,
+      "defense": 170.94,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 280.896,
+      "atk": 115.368,
+      "defense": 175.56,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 288.288,
+      "atk": 118.404,
+      "defense": 180.18,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 347.424,
+      "atk": 142.692,
+      "defense": 217.14000000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 354.81600000000003,
+      "atk": 145.728,
+      "defense": 221.76000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 362.20799999999997,
+      "atk": 148.764,
+      "defense": 226.38,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 369.6,
+      "atk": 151.8,
+      "defense": 231.0,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 376.992,
+      "atk": 154.836,
+      "defense": 235.62,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 384.384,
+      "atk": 157.872,
+      "defense": 240.24,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 391.776,
+      "atk": 160.90800000000002,
+      "defense": 244.86,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 399.168,
+      "atk": 163.94400000000002,
+      "defense": 249.48000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 406.56,
+      "atk": 166.98,
+      "defense": 254.10000000000002,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 413.952,
+      "atk": 170.016,
+      "defense": 258.72,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 421.34400000000005,
+      "atk": 173.052,
+      "defense": 263.34000000000003,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 480.48,
+      "atk": 197.34,
+      "defense": 300.29999999999995,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 487.87200000000007,
+      "atk": 200.376,
+      "defense": 304.91999999999996,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 495.264,
+      "atk": 203.412,
+      "defense": 309.53999999999996,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 502.65600000000006,
+      "atk": 206.448,
+      "defense": 314.15999999999997,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 510.048,
+      "atk": 209.484,
+      "defense": 318.78,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 517.44,
+      "atk": 212.52,
+      "defense": 323.4,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 524.8320000000001,
+      "atk": 215.556,
+      "defense": 328.02,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 532.224,
+      "atk": 218.592,
+      "defense": 332.64,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 539.616,
+      "atk": 221.62800000000001,
+      "defense": 337.26,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 547.008,
+      "atk": 224.664,
+      "defense": 341.88,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 554.4000000000001,
+      "atk": 227.7,
+      "defense": 346.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 613.5360000000001,
+      "atk": 251.988,
+      "defense": 383.46000000000004,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 620.928,
+      "atk": 255.024,
+      "defense": 388.08000000000004,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 628.3199999999999,
+      "atk": 258.06,
+      "defense": 392.70000000000005,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 635.712,
+      "atk": 261.096,
+      "defense": 397.32,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 643.104,
+      "atk": 264.132,
+      "defense": 401.94,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 650.496,
+      "atk": 267.168,
+      "defense": 406.56,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 657.888,
+      "atk": 270.204,
+      "defense": 411.18,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 665.28,
+      "atk": 273.24,
+      "defense": 415.8,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 672.672,
+      "atk": 276.276,
+      "defense": 420.42,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 680.0640000000001,
+      "atk": 279.312,
+      "defense": 425.03999999999996,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 687.456,
+      "atk": 282.348,
+      "defense": 429.65999999999997,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 746.5920000000001,
+      "atk": 306.636,
+      "defense": 466.62,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 753.984,
+      "atk": 309.672,
+      "defense": 471.24,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 761.376,
+      "atk": 312.708,
+      "defense": 475.86,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 768.768,
+      "atk": 315.744,
+      "defense": 480.48,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 776.1600000000001,
+      "atk": 318.78000000000003,
+      "defense": 485.1,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 783.552,
+      "atk": 321.81600000000003,
+      "defense": 489.72,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 790.944,
+      "atk": 324.852,
+      "defense": 494.34000000000003,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 798.336,
+      "atk": 327.88800000000003,
+      "defense": 498.96000000000004,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 805.7280000000001,
+      "atk": 330.924,
+      "defense": 503.58000000000004,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 813.1200000000001,
+      "atk": 333.96000000000004,
+      "defense": 508.2,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 820.5120000000001,
+      "atk": 336.996,
+      "defense": 512.8199999999999,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 879.648,
+      "atk": 361.284,
+      "defense": 549.78,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 887.04,
+      "atk": 364.32,
+      "defense": 554.4,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 894.432,
+      "atk": 367.356,
+      "defense": 559.02,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 901.8240000000001,
+      "atk": 370.392,
+      "defense": 563.64,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 909.216,
+      "atk": 373.428,
+      "defense": 568.26,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 916.608,
+      "atk": 376.464,
+      "defense": 572.88,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 924.0,
+      "atk": 379.5,
+      "defense": 577.5,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 931.392,
+      "atk": 382.536,
+      "defense": 582.12,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 938.784,
+      "atk": 385.572,
+      "defense": 586.74,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 946.1759999999999,
+      "atk": 388.608,
+      "defense": 591.36,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 953.568,
+      "atk": 391.644,
+      "defense": 595.98,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1012.704,
+      "atk": 415.932,
+      "defense": 632.94,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1020.096,
+      "atk": 418.968,
+      "defense": 637.5600000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1027.488,
+      "atk": 422.004,
+      "defense": 642.1800000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1034.88,
+      "atk": 425.04,
+      "defense": 646.8,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1042.272,
+      "atk": 428.076,
+      "defense": 651.4200000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1049.664,
+      "atk": 431.112,
+      "defense": 656.04,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1057.056,
+      "atk": 434.148,
+      "defense": 660.6600000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1064.448,
+      "atk": 437.18399999999997,
+      "defense": 665.28,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1071.8400000000001,
+      "atk": 440.22,
+      "defense": 669.9000000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1079.232,
+      "atk": 443.256,
+      "defense": 674.52,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1086.624,
+      "atk": 446.29200000000003,
+      "defense": 679.1400000000001,
+      "spd": 105,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

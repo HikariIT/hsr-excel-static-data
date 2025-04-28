@@ -1,0 +1,1274 @@
+{
+  "id": "1221",
+  "name": "Yunli",
+  "rarity": 5,
+  "path": "Destruction",
+  "damage_type": "Physical",
+  "skills": {
+    "122101": {
+      "id": "122101",
+      "name": "Galespin Summersault",
+      "max_level": 10,
+      "damage_type": "Physical",
+      "type": "Normal",
+      "type_text": "Basic ATK",
+      "effect": "SingleAttack",
+      "effect_text": "SingleAttack",
+      "simple_description": "Deals minor Physical DMG to a single enemy.",
+      "full_description": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yunli's ATK to a single target enemy.",
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    "122102": {
+      "id": "122102",
+      "name": "Bladeborne Quake",
+      "max_level": 15,
+      "damage_type": "Physical",
+      "type": "BPSkill",
+      "type_text": "Skill",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "Restores this unit's HP. Deals Physical DMG to one enemy and minor Physical DMG to adjacent targets.",
+      "full_description": "Restores HP equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Yunli's ATK plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>. Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yunli's ATK to a single target enemy and Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Yunli's ATK to adjacent targets.",
+      "params": [
+        [
+          0.6,
+          0.3,
+          0.2,
+          50
+        ],
+        [
+          0.66,
+          0.33,
+          0.2125,
+          80
+        ],
+        [
+          0.72,
+          0.36,
+          0.225,
+          102.5
+        ],
+        [
+          0.78,
+          0.39,
+          0.2375,
+          125
+        ],
+        [
+          0.84,
+          0.42,
+          0.25,
+          140
+        ],
+        [
+          0.9,
+          0.45,
+          0.26,
+          155
+        ],
+        [
+          0.975,
+          0.4875,
+          0.27,
+          166.25
+        ],
+        [
+          1.05,
+          0.525,
+          0.28,
+          177.5
+        ],
+        [
+          1.125,
+          0.5625,
+          0.29,
+          188.75
+        ],
+        [
+          1.2,
+          0.6,
+          0.3,
+          200
+        ],
+        [
+          1.26,
+          0.63,
+          0.31,
+          211.25
+        ],
+        [
+          1.32,
+          0.66,
+          0.32,
+          222.5
+        ],
+        [
+          1.38,
+          0.69,
+          0.33,
+          233.75
+        ],
+        [
+          1.44,
+          0.72,
+          0.34,
+          245
+        ],
+        [
+          1.5,
+          0.75,
+          0.35,
+          256.25
+        ]
+      ]
+    },
+    "122103": {
+      "id": "122103",
+      "name": "Earthbind, Etherbreak",
+      "max_level": 15,
+      "damage_type": "",
+      "type": "Ultra",
+      "type_text": "Ultimate",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "Enters \"Parry\" and taunts all enemies. When attacked during this period, triggers <color=#f29e38ff>powerful <u>Counter</u></color> and <color=#f29e38ff>deals Physical DMG</color> to the attacker and adjacent targets. Then, deals minor Physical DMG to a single enemy that bounces 6 times. If no Counter is triggered while Parry is active, deals Physical DMG to a random enemy target and adjacent targets when Parry ends.",
+      "full_description": "Consumes <unbreak>#8[i]</unbreak> Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When triggering the Counter effect from Talent, launches the <u>Counter</u> \"Intuit: Cull\" instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the <u>Counter</u> \"Intuit: Slash\" on a random enemy target.\\n\\n\"Intuit: Slash\": Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yunli's ATK to the target, and deals Physical DMG equal to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Yunli's ATK to adjacent targets.\\n\"Intuit: Cull\": Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yunli's ATK to the target, and deals Physical DMG equal to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Yunli's ATK to adjacent targets. Then, additionally deals <unbreak>#4[i]</unbreak> instances of DMG, each dealing Physical DMG equal to <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of Yunli's ATK to a random single enemy.\\n\\nWhen Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.",
+      "params": [
+        [
+          1.32,
+          0.6,
+          0,
+          6,
+          0,
+          0.66,
+          0.432,
+          120
+        ],
+        [
+          1.408,
+          0.64,
+          0,
+          6,
+          0,
+          0.704,
+          0.4608,
+          120
+        ],
+        [
+          1.496,
+          0.68,
+          0,
+          6,
+          0,
+          0.748,
+          0.4896,
+          120
+        ],
+        [
+          1.584,
+          0.72,
+          0,
+          6,
+          0,
+          0.792,
+          0.5184,
+          120
+        ],
+        [
+          1.672,
+          0.76,
+          0,
+          6,
+          0,
+          0.836,
+          0.5472,
+          120
+        ],
+        [
+          1.76,
+          0.8,
+          0,
+          6,
+          0,
+          0.88,
+          0.576,
+          120
+        ],
+        [
+          1.87,
+          0.85,
+          0,
+          6,
+          0,
+          0.935,
+          0.612,
+          120
+        ],
+        [
+          1.98,
+          0.9,
+          0,
+          6,
+          0,
+          0.99,
+          0.648,
+          120
+        ],
+        [
+          2.09,
+          0.95,
+          0,
+          6,
+          0,
+          1.045,
+          0.684,
+          120
+        ],
+        [
+          2.2,
+          1,
+          0,
+          6,
+          0,
+          1.1,
+          0.72,
+          120
+        ],
+        [
+          2.288,
+          1.04,
+          0,
+          6,
+          0,
+          1.144,
+          0.7488,
+          120
+        ],
+        [
+          2.376,
+          1.08,
+          0,
+          6,
+          0,
+          1.188,
+          0.7776,
+          120
+        ],
+        [
+          2.464,
+          1.12,
+          0,
+          6,
+          0,
+          1.232,
+          0.8064,
+          120
+        ],
+        [
+          2.552,
+          1.16,
+          0,
+          6,
+          0,
+          1.276,
+          0.8352,
+          120
+        ],
+        [
+          2.64,
+          1.2,
+          0,
+          6,
+          0,
+          1.32,
+          0.864,
+          120
+        ]
+      ]
+    },
+    "122104": {
+      "id": "122104",
+      "name": "Flashforge",
+      "max_level": 15,
+      "damage_type": "Physical",
+      "type": "",
+      "type_text": "Talent",
+      "effect": "Blast",
+      "effect_text": "Blast",
+      "simple_description": "When Yunli is attacked by any enemy target, additionally regenerates Energy and immediately <u>Counters</u>, dealing Physical DMG to the attacker and minor Physical DMG to adjacent targets.",
+      "full_description": "When Yunli gets attacked by an enemy target, additionally regenerates <unbreak>#3[i]</unbreak> Energy and immediately launches a <u>Counter</u> on the attacker, dealing Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yunli's ATK to the attacker and Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Yunli's ATK to adjacent targets.\\nIf there is no immediate target to Counter, then Counters a random enemy target instead.",
+      "params": [
+        [
+          0.6,
+          0.3,
+          15
+        ],
+        [
+          0.66,
+          0.33,
+          15
+        ],
+        [
+          0.72,
+          0.36,
+          15
+        ],
+        [
+          0.78,
+          0.39,
+          15
+        ],
+        [
+          0.84,
+          0.42,
+          15
+        ],
+        [
+          0.9,
+          0.45,
+          15
+        ],
+        [
+          0.975,
+          0.4875,
+          15
+        ],
+        [
+          1.05,
+          0.525,
+          15
+        ],
+        [
+          1.125,
+          0.5625,
+          15
+        ],
+        [
+          1.2,
+          0.6,
+          15
+        ],
+        [
+          1.26,
+          0.63,
+          15
+        ],
+        [
+          1.32,
+          0.66,
+          15
+        ],
+        [
+          1.38,
+          0.69,
+          15
+        ],
+        [
+          1.44,
+          0.72,
+          15
+        ],
+        [
+          1.5,
+          0.75,
+          15
+        ]
+      ]
+    },
+    "122107": {
+      "id": "122107",
+      "name": "Posterior Precedence",
+      "max_level": 1,
+      "damage_type": "",
+      "type": "Maze",
+      "type_text": "Technique",
+      "effect": "Enhance",
+      "effect_text": "Enhance",
+      "simple_description": "This unit gains the Ward effect, lasting for <unbreak>20</unbreak> seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts \"Intuit: Cull\" on a random enemy.",
+      "full_description": "This unit gains the Ward effect, lasting for <unbreak>#2[i]</unbreak> seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts \"Intuit: Cull\" on a random enemy, and increases the DMG dealt by this attack by <unbreak>#1[i]%</unbreak>.",
+      "params": [
+        [
+          0.8,
+          20
+        ]
+      ]
+    }
+  },
+  "major_traces": {
+    "1221101": {
+      "id": "1221101",
+      "required_ascension": 2,
+      "prerequsite_traces": [],
+      "children": [
+        "1221202"
+      ],
+      "params": []
+    },
+    "1221102": {
+      "id": "1221102",
+      "required_ascension": 4,
+      "prerequsite_traces": [],
+      "children": [
+        "1221205"
+      ],
+      "params": [
+        0.2
+      ]
+    },
+    "1221103": {
+      "id": "1221103",
+      "required_ascension": 6,
+      "prerequsite_traces": [],
+      "children": [
+        "1221208"
+      ],
+      "params": [
+        0.3
+      ]
+    }
+  },
+  "minor_traces": {
+    "1221201": {
+      "id": "1221201",
+      "stat": "AttackAddedRatio",
+      "value": 0.04,
+      "required_level": 1,
+      "required_ascension": "",
+      "prerequsite_traces": [],
+      "children": []
+    },
+    "1221202": {
+      "id": "1221202",
+      "stat": "HPAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 2,
+      "prerequsite_traces": [
+        1221101
+      ],
+      "children": [
+        "1221203"
+      ]
+    },
+    "1221203": {
+      "id": "1221203",
+      "stat": "AttackAddedRatio",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1221202
+      ],
+      "children": [
+        "1221204"
+      ]
+    },
+    "1221204": {
+      "id": "1221204",
+      "stat": "CriticalChanceBase",
+      "value": 0.026999999,
+      "required_level": "",
+      "required_ascension": 3,
+      "prerequsite_traces": [
+        1221203
+      ],
+      "children": []
+    },
+    "1221205": {
+      "id": "1221205",
+      "stat": "AttackAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 4,
+      "prerequsite_traces": [
+        1221102
+      ],
+      "children": [
+        "1221206"
+      ]
+    },
+    "1221206": {
+      "id": "1221206",
+      "stat": "HPAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1221205
+      ],
+      "children": [
+        "1221207"
+      ]
+    },
+    "1221207": {
+      "id": "1221207",
+      "stat": "AttackAddedRatio",
+      "value": 0.06,
+      "required_level": "",
+      "required_ascension": 5,
+      "prerequsite_traces": [
+        1221206
+      ],
+      "children": []
+    },
+    "1221208": {
+      "id": "1221208",
+      "stat": "CriticalChanceBase",
+      "value": 0.04,
+      "required_level": "",
+      "required_ascension": 6,
+      "prerequsite_traces": [
+        1221103
+      ],
+      "children": [
+        "1221209",
+        "1221210"
+      ]
+    },
+    "1221209": {
+      "id": "1221209",
+      "stat": "HPAddedRatio",
+      "value": 0.08,
+      "required_level": 75,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1221208
+      ],
+      "children": []
+    },
+    "1221210": {
+      "id": "1221210",
+      "stat": "AttackAddedRatio",
+      "value": 0.08,
+      "required_level": 80,
+      "required_ascension": "",
+      "prerequsite_traces": [
+        1221208
+      ],
+      "children": []
+    }
+  },
+  "max_energy": 240,
+  "stats": {
+    "1/20": {
+      "hp": 184.8,
+      "atk": 92.4,
+      "defense": 62.7,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "2/20": {
+      "hp": 194.04000000000002,
+      "atk": 97.02000000000001,
+      "defense": 65.83500000000001,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "3/20": {
+      "hp": 203.28,
+      "atk": 101.64,
+      "defense": 68.97,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "4/20": {
+      "hp": 212.52,
+      "atk": 106.26,
+      "defense": 72.105,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "5/20": {
+      "hp": 221.76000000000002,
+      "atk": 110.88000000000001,
+      "defense": 75.24000000000001,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "6/20": {
+      "hp": 231.0,
+      "atk": 115.5,
+      "defense": 78.375,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "7/20": {
+      "hp": 240.24,
+      "atk": 120.12,
+      "defense": 81.51,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "8/20": {
+      "hp": 249.48000000000002,
+      "atk": 124.74000000000001,
+      "defense": 84.64500000000001,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "9/20": {
+      "hp": 258.72,
+      "atk": 129.36,
+      "defense": 87.78,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "10/20": {
+      "hp": 267.96000000000004,
+      "atk": 133.98000000000002,
+      "defense": 90.91499999999999,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "11/20": {
+      "hp": 277.20000000000005,
+      "atk": 138.60000000000002,
+      "defense": 94.05,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "12/20": {
+      "hp": 286.44,
+      "atk": 143.22,
+      "defense": 97.185,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "13/20": {
+      "hp": 295.68,
+      "atk": 147.84,
+      "defense": 100.32,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "14/20": {
+      "hp": 304.92,
+      "atk": 152.46,
+      "defense": 103.455,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "15/20": {
+      "hp": 314.16,
+      "atk": 157.08,
+      "defense": 106.59,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "16/20": {
+      "hp": 323.4,
+      "atk": 161.7,
+      "defense": 109.725,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "17/20": {
+      "hp": 332.64,
+      "atk": 166.32,
+      "defense": 112.86,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "18/20": {
+      "hp": 341.88,
+      "atk": 170.94,
+      "defense": 115.995,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "19/20": {
+      "hp": 351.12,
+      "atk": 175.56,
+      "defense": 119.13,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/20": {
+      "hp": 360.36,
+      "atk": 180.18,
+      "defense": 122.265,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "20/30": {
+      "hp": 434.28000000000003,
+      "atk": 217.14000000000001,
+      "defense": 147.345,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "21/30": {
+      "hp": 443.52000000000004,
+      "atk": 221.76000000000002,
+      "defense": 150.48,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "22/30": {
+      "hp": 452.76,
+      "atk": 226.38,
+      "defense": 153.615,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "23/30": {
+      "hp": 462.0,
+      "atk": 231.0,
+      "defense": 156.75,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "24/30": {
+      "hp": 471.24,
+      "atk": 235.62,
+      "defense": 159.885,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "25/30": {
+      "hp": 480.48,
+      "atk": 240.24,
+      "defense": 163.01999999999998,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "26/30": {
+      "hp": 489.72,
+      "atk": 244.86,
+      "defense": 166.155,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "27/30": {
+      "hp": 498.96000000000004,
+      "atk": 249.48000000000002,
+      "defense": 169.29,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "28/30": {
+      "hp": 508.20000000000005,
+      "atk": 254.10000000000002,
+      "defense": 172.425,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "29/30": {
+      "hp": 517.44,
+      "atk": 258.72,
+      "defense": 175.56,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/30": {
+      "hp": 526.6800000000001,
+      "atk": 263.34000000000003,
+      "defense": 178.695,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "30/40": {
+      "hp": 600.5999999999999,
+      "atk": 300.29999999999995,
+      "defense": 203.77499999999998,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "31/40": {
+      "hp": 609.8399999999999,
+      "atk": 304.91999999999996,
+      "defense": 206.91,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "32/40": {
+      "hp": 619.0799999999999,
+      "atk": 309.53999999999996,
+      "defense": 210.045,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "33/40": {
+      "hp": 628.3199999999999,
+      "atk": 314.15999999999997,
+      "defense": 213.18,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "34/40": {
+      "hp": 637.56,
+      "atk": 318.78,
+      "defense": 216.315,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "35/40": {
+      "hp": 646.8,
+      "atk": 323.4,
+      "defense": 219.45,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "36/40": {
+      "hp": 656.04,
+      "atk": 328.02,
+      "defense": 222.58499999999998,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "37/40": {
+      "hp": 665.28,
+      "atk": 332.64,
+      "defense": 225.71999999999997,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "38/40": {
+      "hp": 674.52,
+      "atk": 337.26,
+      "defense": 228.855,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "39/40": {
+      "hp": 683.76,
+      "atk": 341.88,
+      "defense": 231.99,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/40": {
+      "hp": 693.0,
+      "atk": 346.5,
+      "defense": 235.125,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "40/50": {
+      "hp": 766.9200000000001,
+      "atk": 383.46000000000004,
+      "defense": 260.205,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "41/50": {
+      "hp": 776.1600000000001,
+      "atk": 388.08000000000004,
+      "defense": 263.34,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "42/50": {
+      "hp": 785.4000000000001,
+      "atk": 392.70000000000005,
+      "defense": 266.475,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "43/50": {
+      "hp": 794.64,
+      "atk": 397.32,
+      "defense": 269.61,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "44/50": {
+      "hp": 803.88,
+      "atk": 401.94,
+      "defense": 272.745,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "45/50": {
+      "hp": 813.12,
+      "atk": 406.56,
+      "defense": 275.88,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "46/50": {
+      "hp": 822.36,
+      "atk": 411.18,
+      "defense": 279.015,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "47/50": {
+      "hp": 831.6,
+      "atk": 415.8,
+      "defense": 282.15,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "48/50": {
+      "hp": 840.84,
+      "atk": 420.42,
+      "defense": 285.28499999999997,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "49/50": {
+      "hp": 850.0799999999999,
+      "atk": 425.03999999999996,
+      "defense": 288.41999999999996,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/50": {
+      "hp": 859.3199999999999,
+      "atk": 429.65999999999997,
+      "defense": 291.55499999999995,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "50/60": {
+      "hp": 933.24,
+      "atk": 466.62,
+      "defense": 316.635,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "51/60": {
+      "hp": 942.48,
+      "atk": 471.24,
+      "defense": 319.77,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "52/60": {
+      "hp": 951.72,
+      "atk": 475.86,
+      "defense": 322.905,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "53/60": {
+      "hp": 960.96,
+      "atk": 480.48,
+      "defense": 326.03999999999996,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "54/60": {
+      "hp": 970.2,
+      "atk": 485.1,
+      "defense": 329.175,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "55/60": {
+      "hp": 979.44,
+      "atk": 489.72,
+      "defense": 332.31,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "56/60": {
+      "hp": 988.6800000000001,
+      "atk": 494.34000000000003,
+      "defense": 335.445,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "57/60": {
+      "hp": 997.9200000000001,
+      "atk": 498.96000000000004,
+      "defense": 338.58000000000004,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "58/60": {
+      "hp": 1007.1600000000001,
+      "atk": 503.58000000000004,
+      "defense": 341.71500000000003,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "59/60": {
+      "hp": 1016.4,
+      "atk": 508.2,
+      "defense": 344.85,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/60": {
+      "hp": 1025.6399999999999,
+      "atk": 512.8199999999999,
+      "defense": 347.985,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "60/70": {
+      "hp": 1099.56,
+      "atk": 549.78,
+      "defense": 373.06499999999994,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "61/70": {
+      "hp": 1108.8,
+      "atk": 554.4,
+      "defense": 376.2,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "62/70": {
+      "hp": 1118.04,
+      "atk": 559.02,
+      "defense": 379.335,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "63/70": {
+      "hp": 1127.28,
+      "atk": 563.64,
+      "defense": 382.46999999999997,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "64/70": {
+      "hp": 1136.52,
+      "atk": 568.26,
+      "defense": 385.605,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "65/70": {
+      "hp": 1145.76,
+      "atk": 572.88,
+      "defense": 388.74,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "66/70": {
+      "hp": 1155.0,
+      "atk": 577.5,
+      "defense": 391.875,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "67/70": {
+      "hp": 1164.24,
+      "atk": 582.12,
+      "defense": 395.01,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "68/70": {
+      "hp": 1173.48,
+      "atk": 586.74,
+      "defense": 398.145,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "69/70": {
+      "hp": 1182.72,
+      "atk": 591.36,
+      "defense": 401.28,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/70": {
+      "hp": 1191.96,
+      "atk": 595.98,
+      "defense": 404.41499999999996,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "70/80": {
+      "hp": 1265.88,
+      "atk": 632.94,
+      "defense": 429.495,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "71/80": {
+      "hp": 1275.1200000000001,
+      "atk": 637.5600000000001,
+      "defense": 432.63,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "72/80": {
+      "hp": 1284.3600000000001,
+      "atk": 642.1800000000001,
+      "defense": 435.765,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "73/80": {
+      "hp": 1293.6,
+      "atk": 646.8,
+      "defense": 438.9,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "74/80": {
+      "hp": 1302.8400000000001,
+      "atk": 651.4200000000001,
+      "defense": 442.03499999999997,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "75/80": {
+      "hp": 1312.08,
+      "atk": 656.04,
+      "defense": 445.16999999999996,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "76/80": {
+      "hp": 1321.3200000000002,
+      "atk": 660.6600000000001,
+      "defense": 448.30499999999995,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "77/80": {
+      "hp": 1330.56,
+      "atk": 665.28,
+      "defense": 451.44,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "78/80": {
+      "hp": 1339.8000000000002,
+      "atk": 669.9000000000001,
+      "defense": 454.575,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "79/80": {
+      "hp": 1349.04,
+      "atk": 674.52,
+      "defense": 457.71,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    },
+    "80/80": {
+      "hp": 1358.2800000000002,
+      "atk": 679.1400000000001,
+      "defense": 460.845,
+      "spd": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5
+    }
+  },
+  "unreleased": false
+}

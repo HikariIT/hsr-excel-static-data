@@ -1,0 +1,71 @@
+from enum import Enum
+
+
+class ExcelOutputFile(str, Enum):
+    ACHIEVEMENT_DATA = 'AchievementData.json'                   # Info about achievements, texts, conditions etc.
+    ACHIEVEMENT_LEVEL = 'AchievementLevel.json'                 # Info about achievement levels, currentyly without a known use
+    ACHIEVEMENT_SERIES = 'AchievementSeries.json'               # Represents each achievement series with hash and icon
+    AVATAR_VOICE_ACTORS = 'AvatarAtlas.json'                    # Voice actors for each avatar (Codes: CV_CN, CV_JP, CV_EN, CV_KR)
+    AVATAR_PATHS = 'AvatarBaseType.json'                        # Info about available paths
+    AVATAR_BREAK_DMG = 'AvatarBreakDamage.json'                 # Info about break damage for each level
+    AVATAR_FACTION = 'AvatarCamp.json'                          # Mapping of avatar to their faction (e.g. Stellaron Hunters)
+    AVATAR_MAIN = 'AvatarConfig.json'                           # Base info about each avatar (most info is stored here)
+    AVATAR_TRIAL_CONFIG = 'AvatarConfigTrial.json'              # Trial avatars
+    AVATAR_DEMO_CONFIG = 'AvatarDemoConfig.json'                # Demo avatars (e.g. Trial characters during their banners?)
+    AVATAR_EXP_ITEMS = 'AvatarExpItemConfig.json'               # EXP items for avatars (e.g. Traveler's Guide)
+    AVATAR_EXP_REQUIREMENTS = 'ExpType.json'                    # EXP requirements for avatars, how much EXP is needed for each level
+    AVATAR_GLOBAL_PASSIVE = 'AvatarGlobalBuffConfig.json'       # Global passives for each avatar (e.g. Castorice's revive)
+    AVATAR_TECHNIQUES = 'AvatarMazeBuff.json'                   # Techniques for each avatar (e.g. Sanctuary of Mooncocoon)
+    AVATAR_ICONS = 'AvatarPlayerIcon.json'                      # Icons for each avatar (round ones)
+    AVATAR_ASCENSION = 'AvatarPromotionConfig.json'             # Ascension materials and additional stats for each avatar and ascension level
+    AVATAR_TRIAL_ASCENSION = 'AvatarPromotionConfigTrial.json'  # Ascension materials and additional stats for trial avatars
+    AVATAR_ASCENSION_REWARDS = 'AvatarPromotionReward.json'     # Ascension rewards for each avatar (Star Rail Pass)
+    AVATAR_STATS = 'AvatarPropertyConfig.json'                  # Stats available in the game (e.g. HP, Effect RES, and many others, even obscure ones)
+    AVATAR_STAT_OVERRIDE = 'AvatarPropertyOverride.json'        # Stat overrides for characters in the game that do not use some stats (e.g. Acheron special ult)
+    AVATAR_EIDOLONS = 'AvatarRankConfig.json'                   # Info about each avatar's eidolons
+    AVATAR_TRIAL_EIDOLONS = 'AvatarRankConfigTrial.json'        # Eidolons for trial avatars
+    AVATAR_SUGGESTED_RELICS = 'AvatarRelicRecommended.json'     # Recommended relics
+    AVATAR_MEMOSPRITE_CONFIG = 'AvatarServantConfig.json'       # Base info about memosprites
+    AVATAR_MEMOSPRITE_SKILLS = 'AvatarServantSkillConfig.json'  # Skill info for memosprites
+    AVATAR_SKILLS = 'AvatarSkillConfig.json'                    # Skill info for each avatar (e.g. ult, skill, basic attack, talent)
+    AVATAR_TRACES = 'AvatarSkillTreeConfig.json'                # Traces for each avatar, whole skill tree
+    AVATAR_TRIAL_TRACES = 'AvatarSkillTreeConfigTrial.json'     # Traces for trial avatars
+    AVATAR_SKINS = 'AvatarSkin.json'                            # Skins for each avatar (e.g. Match 7th Preservation skin)
+    AVATAR_STATUS = 'AvatarStatusConfig.json'                   # Status names and icons created by each avatar
+    AVATAR_MATERIALS = 'AvatarUseMaterialData.json'             # Materials used by each avatar for ascension and traces
+    AVATAR_SUMMARIES = 'CeilingCharacterInfo.json'              # General summary of each avatar and what it does
+    DAMAGE_TYPES = 'DamageType.json'                            # Damage types (e.g. Physical, Fire, Ice, Lightning, Quantum, Imaginary, Wind)
+    LIGHT_CONE_MAIN = 'EquipmentConfig.json'                    # Light cones, their stats and effects
+    LIGHT_CONE_EXP_ITEMS = 'EquipmentExpItemConfig.json'        # EXP items for light cones (e.g. Refined Aether)
+    LIGHT_CONE_EXP_REQUIREMENTS = 'EquipmentExpType.json'       # EXP requirements for light cones, how much EXP is needed for each level
+    LIGHT_CONE_ASCENSION = 'EquipmentPromotionConfig.json'      # Ascension materials and additional stats for each light cone and ascension level
+    LIGHT_CONE_SKILLS = 'EquipmentSkillConfig.json'             # Skill info for light cones, additional effects
+    EXTRA_EFFECTS = 'ExtraEffectConfig.json'                    # Extra effects (e.g. Action Advance, Action Delayed)
+    BANNERS = 'GachaBasicInfo.json'                             # Info about banners in the game (e.g. event banners, standard banners)
+    ITEM_MAIN = 'ItemConfig.json'                               # Base info about items in the game (e.g. consumables, relics, materials)
+    ITEM_SOURCES = 'ItemComeFrom.json'                          # Sources of items in the game
+    ITEM_SYNTHESIZING = 'ItemComposeConfig.json'                # Recipes for Omni-Synthesizer
+    ITEM_AVATARS = 'ItemConfigAvatar.json'                      # Avatar items
+    ITEM_EIDOLONS = 'ItemConfigAvatarRank.json'                 # Eidolon items for each avatar (e.g. Shadow of Remembrance)
+    ITEM_SKINS = 'ItemConfigAvatarSkin.json'                    # Skin items for each avatar (e.g. Match 7th Preservation skin)
+    ITEM_BOOKS = 'ItemConfigBook.json'                          # Collectible book items
+    ITEM_MUSIC_DISKS = 'ItemConfigDisk.json'                    # Music disk items
+    ITEM_LIGHT_CONES = 'ItemConfigEquipment.json'               # Light cone items
+    ITEM_RELICS = 'ItemConfigRelic.json'                        # Relic items
+    ITEM_CONSUMABLE_TYPES = 'ItemConsumeType.json'              # Consumable item types
+    ITEM_RARITY = 'ItemRarityConfig.json'                       # Rarity level of items in the game (e.g. 1, 2, 3, 4, 5 stars)
+    MONSTER_MAIN = 'MonsterConfig.json'                         # Base info about monsters in the game
+    # TODO: Add more monster files
+
+    RELIC_BASE = 'RelicBaseType.json'                           # Base info about relic parts
+    RELIC_MAIN = 'RelicConfig.json'                             # Base info about relics in the game
+    RELIC_EXP_ITEMS = 'RelicExpItem.json'                       # EXP items for relics (e.g. Refined Aether)
+    RELIC_EXP_REQUIREMENTS = 'RelicExpType.json'                # EXP requirements for relics, how much EXP is needed for each level
+    RELIC_MAIN_AFFIX_VALUES = 'RelicMainAffixConfig.json'       # Main affixes for relics and their values for each level
+    RELIC_SUB_AFFIX_VALUES = 'RelicSubAffixConfig.json'         # Sub affixes for relics and their values for each level
+    RELIC_SET_BASE_INFO ='RelicDataInfo.json'                   # Base info about relic sets (images etc.)
+    RELIC_SET_MAIN = 'RelicSetConfig.json'                      # Base info about relic sets
+    RELIC_SET_CONDITIONALS = 'RelicSetBonusValue.json'          # Bonuses for each relic set
+    RELIC_SET_EFFECTS = 'RelicSetSkillConfig.json'              # Effects for each relic set
+    STORY_MAIN = 'StoryAtlas.json'                              # Story info for avatars
+    VOICE_LINES_MAIN = 'VoiceAtlas.json'                        # Voice lines for avatars
