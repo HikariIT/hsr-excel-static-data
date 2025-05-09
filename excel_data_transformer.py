@@ -8,7 +8,21 @@ from schema.output import CharacterBaseStats, CharacterOutput
 class ExcelDataTransformer:
 
     CHARACTER_DATA_DIRECTORY = 'output'
-    ABSOULUTE_ICON_DIRECTORY = r'D:\HSR\turnbasedgamedata\scripts\output\img'
+    ABSOLUTE_ICON_URL = r'https://raw.githubusercontent.com/HikariIT/hsr-excel-static-data/refs/heads/main/output/img/wait-icon'
+    ASCENSION_FROM_MAX_LEVEL = {
+        '20': 1,
+        '40': 2,
+        '50': 3,
+        '60': 4,
+        '70': 5,
+        '80': 6,
+    }
+
+    LEVELS_OVERRIDE = {
+        'Tingyun': '60/60',
+        'Robin': '75/80',
+        'Ruan Mei': '75/80',
+    }
 
     def __init__(self):
         self._character_files = self._get_character_files()
@@ -23,6 +37,8 @@ class ExcelDataTransformer:
         self._parse_character_files()
         self._character_dataframe = self._character_dataframe.reset_index(drop=True)
         self._character_dataframe = self._character_dataframe.drop_duplicates(subset=['Name'], keep='last')
+        self._character_dataframe = self._character_dataframe.drop(columns=['Image'])
+        self._character_dataframe.to_csv('output/characters.csv', index=False, encoding='utf-8-sig', header=False)
         self._character_dataframe.to_excel('output/characters.xlsx', index=False, engine='openpyxl')
 
     def _get_character_files(self):
@@ -38,12 +54,25 @@ class ExcelDataTransformer:
             str_data = file.read()
             data = json.loads(str_data)
             character_data = CharacterOutput(**data)
-            base_stats = self._get_base_stats(character_data)
-            minor_trace_stats = self._get_stats_from_minor_traces(character_data)
+            character_name = self._get_character_name(character_data)
+            print(character_name)
+
+            if character_name in self.LEVELS_OVERRIDE:
+                str_level = self.LEVELS_OVERRIDE[character_name]
+                level, max_level = str_level.split('/')
+                level = int(level)
+                ascension_level = self.ASCENSION_FROM_MAX_LEVEL[max_level]
+            else:
+                str_level = '80/80'
+                level = 80
+                ascension_level = 6
+
+            base_stats = self._get_base_stats(character_data, str_level)
+            minor_trace_stats = self._get_stats_from_minor_traces(character_data, level, ascension_level)
 
             character_df = pd.DataFrame({
                 'Image': [''],
-                'Name': [self._get_character_name(character_data)],
+                'Name': [character_name],
                 'Element': [character_data.damage_type],
                 'Path': [character_data.path],
                 'Base HP': [base_stats['Base HP']],
@@ -63,7 +92,7 @@ class ExcelDataTransformer:
                 'OHB%': [''],
                 'SPD': [self._get_stat(minor_trace_stats, 'SpeedDelta')],
                 'Max Energy': [character_data.max_energy if character_data.max_energy else ''],
-                'Icon Link': [os.path.join(self.ABSOULUTE_ICON_DIRECTORY, self._get_img_link(character_data))]
+                'Icon Link': [f'{self.ABSOLUTE_ICON_URL}/{character_data.id}.webp']
             })
 
             # Add the character dataframe to the main dataframe
@@ -82,11 +111,8 @@ class ExcelDataTransformer:
             return f'March 7th ({character_data.path})'
         return character_data.name
 
-    def _get_img_link(self, character_data: CharacterOutput):
-        return os.path.join(self.ABSOULUTE_ICON_DIRECTORY, f'wait-icon\\{character_data.id}.webp')
-
-    def _get_base_stats(self, character_data: CharacterOutput):
-        base_stats = CharacterBaseStats(**character_data.stats['80/80'])
+    def _get_base_stats(self, character_data: CharacterOutput, str_level: str):
+        base_stats = CharacterBaseStats(**character_data.stats[str_level])
         return {
             'Base HP': round(base_stats.hp, 3),
             'Base ATK': round(base_stats.atk, 3),
@@ -94,9 +120,15 @@ class ExcelDataTransformer:
             'Base SPD': round(base_stats.spd, 3),
         }
 
-    def _get_stats_from_minor_traces(self, character_data: CharacterOutput):
+    def _get_stats_from_minor_traces(self, character_data: CharacterOutput, character_level: int, ascension_level: int):
         stats = {}
         for trace in character_data.minor_traces.values():
+            if trace['required_level']:
+                if trace['required_level'] > character_level:
+                    continue
+            if trace['required_ascension']:
+                if trace['required_ascension'] > ascension_level:
+                    continue
             if trace['stat']:
                 if trace['stat'] in stats:
                     stats[trace['stat']] += trace['value']

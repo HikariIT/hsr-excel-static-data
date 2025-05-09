@@ -1,13 +1,16 @@
-from dataclasses import asdict
-import random
-import time
 from schema.output import CharacterMajorTrace, CharacterOutput, CharacterMinorTrace, CharacterSkillTrace, CharacterSkill, CharacterBaseStats
+from scripts.json_generator_base import FileParserBase
 from excel_files import ExcelOutputFile
+from dataclasses import asdict
 from pathlib import Path
 from enum import Enum
-import logging
+
 import requests
+import logging
+import random
 import json
+import time
+
 
 
 class CharacterRarityHSRInternal(str, Enum):
@@ -15,7 +18,7 @@ class CharacterRarityHSRInternal(str, Enum):
     FIVE_STAR = 'CombatPowerAvatarRarityType5'
 
 
-class FileParser:
+class CharacterParser(FileParserBase):
 
     EXCEL_OUTPUT_PATH = Path('../ExcelOutput')
     TEXT_MAPS_PATH = Path('../TextMap')
@@ -89,9 +92,6 @@ class FileParser:
         name_sanitized = ''.join(filter(str.isalnum, character_data.name))
         name_sanitized = ''.join(['-' + i.lower() if i.isupper() else i for i in name_sanitized]).lstrip('-')
         return f'{name_sanitized}-character'
-
-    def _unhash(self, hash_value: int) -> str:
-        return self.text_map.get(str(hash_value))
 
     def _get_path(self, path_id: str) -> str:
         return self.class_to_path.get(path_id, 'General')
@@ -258,7 +258,7 @@ class FileParser:
         return stats_for_level
 
 if __name__ == '__main__':
-    file_parser = FileParser()
+    file_parser = CharacterParser()
     file_parser.open()
     for character_id in file_parser.get_all_character_ids():
         file_parser.parse_character(character_id)
