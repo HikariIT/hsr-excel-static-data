@@ -1,6 +1,6 @@
 from schema.output import CharacterMajorTrace, CharacterOutput, CharacterMinorTrace, CharacterSkillTrace, CharacterSkill, CharacterBaseStats
-from scripts.json_generator_base import FileParserBase
-from excel_files import ExcelOutputFile
+from generators.json_generator_base import FileParserBase
+from constants.excel_files import ExcelOutputFile
 from dataclasses import asdict
 from pathlib import Path
 from enum import Enum

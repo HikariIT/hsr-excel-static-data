@@ -1,10 +1,14 @@
 from input_schema.base import InputSchemaBase
+from typing import TypeVar, Generic
 import json
 
 
-class Database:
+T = TypeVar('T', bound=InputSchemaBase)
 
-    def __init__(self, file, unique_key: str = 'ID', element_class: type = InputSchemaBase):
+
+class Database(Generic[T]):
+
+    def __init__(self, file, element_class: type[T], unique_key: str = 'ID', ):
         self.unique_key = unique_key
         self.element_class = element_class
         self.file = file
@@ -16,3 +20,9 @@ class Database:
             if element_id not in self.data:
                 self.data[element_id] = self.element_class(text_map)
             self.data[element_id].update(element)
+
+    def get_ids(self) -> list[int]:
+        return list(self.data.keys())
+
+    def __getitem__(self, item: int) -> T:
+        return self.data[item]

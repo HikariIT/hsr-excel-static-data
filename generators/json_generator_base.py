@@ -1,4 +1,4 @@
-from excel_files import ExcelOutputFile
+from constants.excel_files import ExcelOutputFile
 from abc import ABC, abstractmethod
 from pathlib import Path
 

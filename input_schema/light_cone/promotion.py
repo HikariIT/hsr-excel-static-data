@@ -1,14 +1,14 @@
 from input_schema.base import InputSchemaBase
-from utils.base_stats import BaseStats
+from common.base_stats import BaseStats
 
 
 class LightConePromotionSchema(InputSchemaBase):
 
-    equipment_id: str
-    promotion_level: list[int]
-    max_level: list[int]
-    base_stats: list[BaseStats]
-    scaling_stats: list[BaseStats]
+    equipment_id: int               # Foreign Key: (LightConeSchema) equipment_id
+    promotion_level: list[int]      # Index: ascension level
+    max_level: list[int]            # Index: ascension level
+    base_stats: list[BaseStats]     # Index: ascension level
+    scaling_stats: list[BaseStats]  # Index: ascension level
 
     MAX_ASCENSION_LEVEL: int = 6
 
@@ -43,3 +43,20 @@ class LightConePromotionSchema(InputSchemaBase):
         )
 
         self.max_level[promotion] = schema['MaxLevel']
+
+    def get_stats_for_levels(self) -> dict[str, BaseStats]:
+        stats_for_levels = {}
+        min_level = 1
+        for i in range(self.MAX_ASCENSION_LEVEL + 1):
+            max_level = self.max_level[i]
+            for level in range(min_level, max_level + 1):
+                base_stats = self.base_stats[i]
+                scaling_stats = self.scaling_stats[i]
+                stats_for_levels[f'{level}/{max_level}'] = BaseStats(
+                    base_stats.hp + scaling_stats.hp * (level - 1),
+                    base_stats.atk + scaling_stats.atk * (level - 1),
+                    base_stats.defence + scaling_stats.defence * (level - 1)
+                )
+
+            min_level = max_level
+        return stats_for_levels

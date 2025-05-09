@@ -1,4 +1,5 @@
 class BaseStats:
+
     def __init__(self, base_hp: float = 0, base_atk: float = 0, base_defence: float = 0):
         self.hp = base_hp
         self.atk = base_atk
@@ -28,3 +29,5 @@ class BaseStats:
             )
         return NotImplemented
 
+    def __repr__(self):
+        return f"BaseStats(hp={round(self.hp, 2)}, atk={round(self.atk, 2)}, defence={round(self.defence, 2)})"
